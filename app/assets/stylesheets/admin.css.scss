@@ -1,0 +1,172 @@
+@import 'bootstrap_and_overrides.css.scss';
+
+//body { 
+//	margin: 0;
+//	padding: 0;
+//}
+//
+//h1, h2, h3, h4, p, ul, ol { padding-left: 1%; padding-right: 2%; }
+//blockquote {
+//	border-left: 3px solid $red;
+//	margin: 2em 0 2em 5%; 
+//	padding-right: 2%;
+//	cite {
+//		font-style: italic;
+//		font-weight: bold;
+//	}
+//	cite:before { content:" ~ "; }
+//}
+//
+//p, ul, ol { font-size: 1em; }
+//
+//h1 {
+//	color: $purple;
+//}
+//
+//h2, h3, h4 {
+//	color: $blue;
+//}
+//
+//ul {
+//	list-style-image: image_url('main/bullet.png');
+//}
+//
+//a { text-decoration: underline; }
+//
+//footer {
+//	text-align: center;
+//}
+//
+//.navbar { margin-bottom: 0; }
+//
+//.navbar, .navbar-inner {
+//	border-radius: 0;
+//	.brand { 
+//		font-weight: bold;
+//		text-decoration: none;
+//	}
+//}
+//
+//.navbar .nav li > a { text-decoration: underline; }
+//
+//.navbar .nav .active > a { 
+//	color: #fff;
+//	font-weight: bold;
+//	text-decoration: none;
+//}
+//
+//
+//#main-content {
+//	padding: 1.75em 0;
+//	img {
+//		margin: 0 0 5px 3px;
+//		width: 40%;
+//	}
+//}
+//
+//footer {
+//	background-color: $purple;
+//	color: #fff;
+//	margin: 0;
+//	padding: .33em 0 .15em;
+//	width: 100%;
+//	a {
+//		color: #fff;
+//	}
+//	a:hover { color: #fff; font-weight: bold; }
+//}
+//
+//caption { // table titles
+//	color: $blue;
+//	font-size: 1.7em;
+//	font-weight: bold;
+//	padding: .2em 1em;
+//}
+//
+//th {
+//	background-color: $red;
+//	color: $white;
+//}
+//
+//@media (max-width: 480px) {
+//	#big-header {
+//		display: none;
+//	}
+//}
+//@media (max-width: 767px) {
+//	#big-header {
+//		margin: 0;
+//		padding: 0;
+//		img {
+//			width: 100%;
+//		}
+//	}
+//}
+//
+//@media (min-width: 768px) {
+//	html {
+//		background-color: #dcd3e5;
+//	}
+//	
+//	body {
+//		margin: 0 auto 2em;
+//		border-radius: 0 0 10px 10px;
+//		width: 95%;
+//		@include box-shadow(5px 8px 18px 3px rgba(0,0,0,.25));
+//	}
+//	
+//	#big-header {
+//		margin: 0;
+//		padding: 0;
+//		img {
+//			width: 100%;
+//		}
+//	}
+//	
+//	#main-content {
+//		background: image_url('main/swooshes-big.jpg') top right no-repeat;
+//		img {
+//			margin: 0 0 6px 4px;
+//			width: 35%;
+//		}
+//	}
+//	
+//	footer { border-radius: 0 0 10px 10px; }
+//	
+//	.table-narrow {
+//		margin: .2em auto 1em;
+//		width: 50%;
+//	}
+//	
+//}
+//
+//@media (min-width: 768px) and (max-width: 979px) {
+//	#main-content {
+//		background: image_url('main/swooshes.jpg') top right no-repeat;
+//	}
+//}
+//
+//@media (min-width: 980px) {
+//	body { 	width: 84%; }
+//	p, ul, ol { font-size: 1.05em; }
+//	#main-content {
+//		background: image_url('main/swooshes-big.jpg') top right no-repeat;
+//		img {
+//			margin: 0 0 8px 6px;
+//			width: 30%;
+//		}
+//	}
+//}
+//
+//@media (min-width: 1200px) {
+//	body { 	width: 78%; }
+//	p, ul, ol { font-size: 1.1em; }
+//	#main-content img {
+//		margin: 0 0 9px 7px;
+//		width: 21%;
+//	}
+//}
+//
+//
+//// generic classes
+//.text-right { text-align: right; }
