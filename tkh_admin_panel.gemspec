@@ -9,8 +9,8 @@ Gem::Specification.new do |gem|
   gem.homepage      = ""
   
   gem.add_dependency "railties", "~> 3.2"
-  gem.add_dependency "sass-rails"
-  gem.add_dependency "bootstrap-sass"
+  gem.add_dependency "sass-rails", group: 'assets'
+  gem.add_dependency "bootstrap-sass", group: 'assets'
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
