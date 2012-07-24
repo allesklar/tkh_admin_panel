@@ -8,7 +8,7 @@ Please note that this gem is still in its embryonic phase. I'm just getting star
 
 ## Installation
 
-This gem was created in sync with Rails 3.2.6 and there is a railstie dependency of "~> 3.2". Add this line to your application's Gemfile:
+This gem was created in sync with Rails 3.2.6 and there is a railties dependency of "~> 3.2". Add this line to your application's Gemfile:
 
     gem 'tkh_admin_panel'
 
@@ -31,7 +31,7 @@ You also need to do the following:
 
 ## Contributing
 
-Pull requests for new features and bug fixes are welcome.
+Pull requests for new features and bug fixes are welcome. I haven't created tests yet but test unit tests would be enthusiastically accepted.
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
