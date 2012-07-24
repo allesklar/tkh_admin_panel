@@ -24,6 +24,9 @@
       <div class="row-fluid">
 
         <div id="main-content" class="span12">
+					<p>
+						<%= I18n.locale == :en ? link_to('switch to Spanish', locale: :es) : link_to('switch to English', locale: :en) %>
+					</p>
 					<h1>Admin Panel<%= " for #{SETTINGS['site_name']}" if SETTINGS['site_name'] %></h1>
 					<% flash.each do |name, msg| %>
 					  <div class="alert alert-<%= name == :notice ? "success" : "error" %>">
