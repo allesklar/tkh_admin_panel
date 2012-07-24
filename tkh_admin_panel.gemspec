@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["swami@TenThousandHours.eu"]
   gem.description   = %q{Admin panel layout engine}
   gem.summary       = %q{A Rails admin panel engine with layout, assets, and basic functionality}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/allesklar/tkh_admin_panel"
   
   gem.add_dependency "railties", "~> 3.2"
   gem.add_dependency "sass-rails"
