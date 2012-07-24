@@ -1,8 +1,10 @@
-# TkhAdminPanel
+# TKH Admin Panel
 
 This is a Rails engine with an admin panel layout, assets and basic functionality.
 
 Primarily developed for Ten Thousand Hours but we are happy to share if anybody finds it useful.
+
+Please note that this gem is still in its embryonic phase. I'm just getting started.
 
 ## Installation
 
