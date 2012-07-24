@@ -9,6 +9,7 @@ Gem::Specification.new do |gem|
   gem.homepage      = ""
   
   gem.add_dependency "railties", "~> 3.2"
+  gem.add_dependency "sass-rails"
   gem.add_dependency "bootstrap-sass"
 
   gem.files         = `git ls-files`.split($\)
