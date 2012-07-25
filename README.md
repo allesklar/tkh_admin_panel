@@ -1,6 +1,6 @@
 # TKH Admin Panel
 
-This is a Rails engine with an admin panel layout, assets and basic functionality.
+This is a Rails engine with an admin panel layout, assets and basic functionality. Powered by Twitter Bootstrap + SASS for a modern responsive design.
 
 Primarily developed for Ten Thousand Hours but we are happy to share if anybody finds it useful.
 

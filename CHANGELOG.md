@@ -1,6 +1,11 @@
 # TKH Admin Panel 
 
 
+## x.x.x
+
+* Enabled popover and tooltip javascript functionality
+
+
 ## 0.0.2
 
 * It is not anymore necessary to have the bootstrap-sass gem in the host application Gemfile
