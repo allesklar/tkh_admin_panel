@@ -21,9 +21,8 @@
 	<body>
 		
 		<div class="container-fluid">
-      <div class="row-fluid">
-
-        <div id="main-content" class="span12">
+			<div class="row">
+				<div class="span12">
 					<p>
 						<%= I18n.locale == :en ? link_to('switch to Spanish', locale: :es) : link_to('switch to English', locale: :en) %>
 					</p>
@@ -35,19 +34,28 @@
 					    <%= msg %>
 					  </div>
 					<% end %>
-					
+				</div>
+			</div>
+      <div class="row-fluid">
+
+        <div id="main-content" class="span9">					
           <%= yield %>
         </div>
+				<div id="sidebar" class="span3">
+					<h2>Sections</h2>
+					<ul>
+						<li><%= link_to 'pages', pages_path %></li>
+					</ul>
+				</div>
 
       </div><!--/row-->
     </div> <!-- /container -->
 		
-		<div id="footer">
-			<div id="ohlala-name">
-				<p><%= SETTINGS['web_firm_name'] || "Ten Thousand Hours" %></p>
-			</div>	
-			<p><%= SETTINGS['web_firm_short_url'] || "swami@TenThousandHours.eu" %></p>
-		</div>
+		<footer>
+			<p><b><%= SETTINGS['web_shop_name'] || "Ten Thousand Hours" %></b><br />
+			<%= SETTINGS['web_shop_short_url'] ? link_to(SETTINGS['web_shop_short_url'], SETTINGS['web_shop_url']) : link_to("http://TenThousandHours.eu", 'http://TenThousandHours.eu') %><br />
+			<%= SETTINGS['web_shop_email'] ? link_to(SETTINGS['web_shop_email'], 'mailto:' + SETTINGS['web_shop_email']) : link_to("swami@TenThousandHours.eu", 'mailto:http://TenThousandHours.eu') %><br /></p>
+		</footer>
 		
 		<!-- Le javascript
     ================================================== -->
