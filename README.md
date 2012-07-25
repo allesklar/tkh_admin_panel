@@ -16,9 +16,8 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
+And then of course restart your server!
 
-    $ gem install tkh_admin_panel
 
 ## Usage
 
@@ -26,7 +25,6 @@ You also need to do the following:
 
 * add admin.js and admin.css to your config.assets.precompile in your production environment config file
 * render layout: 'admin' for the controller actions you want to be linked to this layout
-* Add a gem 'bootstrap-sass' line to your gemfile in the assets group and run bundle
 * Restart your server
 
 ## Contributing
