@@ -29,10 +29,12 @@ You also need to do the following:
 
 ## Contributing
 
-Pull requests for new features and bug fixes are welcome. I haven't created tests yet but test unit tests would be enthusiastically accepted.
+Pull requests for new features and bug fixes are welcome.
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Added some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+3. Create your failing tests based on the Test Unit framework.
+4. Create your code which makes the tests pass.
+5. Commit your changes (`git commit -am 'Added some feature'`)
+6. Push to the branch (`git push origin my-new-feature`)
+7. Create new Pull Request
