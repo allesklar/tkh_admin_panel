@@ -9,8 +9,7 @@ Gem::Specification.new do |gem|
   gem.homepage      = "https://github.com/allesklar/tkh_admin_panel"
   
   gem.add_dependency "railties", "~> 3.2"
-  gem.add_dependency "sass-rails"
-  gem.add_dependency "bootstrap-sass"
+  gem.add_dependency "bootstrap-sass", '~> 2.0'
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }

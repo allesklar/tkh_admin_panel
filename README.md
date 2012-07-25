@@ -10,7 +10,7 @@ Please note that this gem is still in its embryonic phase. I'm just getting star
 
 This gem was created in sync with Rails 3.2.6 and there is a railties dependency of "~> 3.2". Add this line to your application's Gemfile:
 
-    gem 'tkh_admin_panel'
+    gem 'tkh_admin_panel', '~> 0.0'
 
 And then execute:
 
@@ -21,11 +21,12 @@ And then of course restart your server!
 
 ## Usage
 
-You also need to do the following:
+In your controller(s):
 
-* add admin.js and admin.css to your config.assets.precompile in your production environment config file
-* render layout: 'admin' for the controller actions you want to be linked to this layout
-* Restart your server
+    $ render layout: 'admin'
+
+... for whichever actions you want to use this layout
+
 
 ## Contributing
 
