@@ -1,10 +1,9 @@
 # TKH Admin Panel 
 
 
-## 0.0.x
+## 0.0.4
 
 * Admin layout doesn't blow up if SETTINGS constant is not initialized in host app
-
 
 
 ## 0.0.3
