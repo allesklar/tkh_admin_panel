@@ -4,6 +4,7 @@
 ## 0.0.3
 
 * Enabled popover and tooltip javascript functionality
+* Added simple_form dependency to handle all admin forms
 * Added a couple sections such as language switcher, footer, sidebar to the layout
 
 
