@@ -1,9 +1,10 @@
 # TKH Admin Panel 
 
 
-## x.x.x
+## 0.0.3
 
 * Enabled popover and tooltip javascript functionality
+* Added a couple sections such as language switcher, footer, sidebar to the layout
 
 
 ## 0.0.2
