@@ -24,7 +24,7 @@
 			<div class="row-fluid">
 				<div class="span12">
 					<p><b><%= I18n.locale == :en ? link_to('switch to Spanish', locale: :es) : link_to('switch to English', locale: :en) %></b></p>
-					<h1>Admin Panel<%= " for #{SETTINGS['site_name']}" if SETTINGS['site_name'] %></h1>
+					<h1>Admin Panel<%= " for #{SETTINGS['site_name']}" if SETTINGS && SETTINGS['site_name'] %></h1>
 					
 					<% flash.each do |name, msg| %>
 					  <div class="alert alert-<%= name == :notice ? "success" : "error" %>">
@@ -47,9 +47,9 @@
 		
 		<div class="row-fluid">
 			<footer class="span12">
-				<p><b><%= SETTINGS['web_shop_name'] || "Ten Thousand Hours" %></b><br />
-				<%= SETTINGS['web_shop_short_url'] ? link_to(SETTINGS['web_shop_short_url'], SETTINGS['web_shop_url']) : link_to("http://TenThousandHours.eu", 'http://TenThousandHours.eu') %><br />
-				<%= SETTINGS['web_shop_email'] ? link_to(SETTINGS['web_shop_email'], 'mailto:' + SETTINGS['web_shop_email']) : link_to("swami@TenThousandHours.eu", 'mailto:http://TenThousandHours.eu') %><br /></p>
+				<p><b><%= SETTINGS && SETTINGS['web_shop_name'] || "Ten Thousand Hours" %></b><br />
+				<%= SETTINGS && SETTINGS['web_shop_short_url'] &&  SETTINGS['web_shop_url'] ? link_to(SETTINGS['web_shop_short_url'], SETTINGS['web_shop_url']) : link_to("http://TenThousandHours.eu", 'http://TenThousandHours.eu') %><br />
+				<%= SETTINGS && SETTINGS['web_shop_email'] ? link_to(SETTINGS['web_shop_email'], 'mailto:' + SETTINGS['web_shop_email']) : link_to("swami@TenThousandHours.eu", 'mailto:http://TenThousandHours.eu') %><br /></p>
 			</footer>
 		</div>
 		
