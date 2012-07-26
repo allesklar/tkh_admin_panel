@@ -42,10 +42,7 @@
           <%= yield %>
         </div>
 				<div id="sidebar" class="span3">
-					<h2>Sections</h2>
-					<ul>
-						<li><%= link_to 'pages', pages_path %></li>
-					</ul>
+					<%= yield :admin_sidebar %>
 				</div>
 
       </div><!--/row-->
