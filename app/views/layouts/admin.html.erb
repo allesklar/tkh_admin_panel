@@ -23,9 +23,7 @@
 		<div class="container-fluid">
 			<div class="row-fluid">
 				<div class="span12">
-					<p>
-						<%= I18n.locale == :en ? link_to('switch to Spanish', locale: :es) : link_to('switch to English', locale: :en) %>
-					</p>
+					<p><b><%= I18n.locale == :en ? link_to('switch to Spanish', locale: :es) : link_to('switch to English', locale: :en) %></b></p>
 					<h1>Admin Panel<%= " for #{SETTINGS['site_name']}" if SETTINGS['site_name'] %></h1>
 					
 					<% flash.each do |name, msg| %>
