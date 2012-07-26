@@ -1,6 +1,12 @@
 # TKH Admin Panel 
 
 
+## 0.0.x
+
+* Admin layout doesn't blow up if SETTINGS constant is not initialized in host app
+
+
+
 ## 0.0.3
 
 * Enabled popover and tooltip javascript functionality
