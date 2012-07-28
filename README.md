@@ -16,7 +16,9 @@ And then execute:
 
     $ bundle
 
-And then of course restart your server!
+And then of course restart your server! Typically:
+
+		$ rails s
 
 
 ## Usage
