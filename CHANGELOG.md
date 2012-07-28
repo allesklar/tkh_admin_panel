@@ -1,6 +1,11 @@
 # TKH Admin Panel 
 
 
+## 0.0.x
+
+* Added language switcher
+
+
 ## 0.0.4
 
 * Admin layout doesn't blow up if SETTINGS constant is not initialized in host app
