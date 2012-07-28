@@ -23,7 +23,6 @@
 		<div class="container-fluid">
 			<div class="row-fluid">
 				<div class="span12">
-					<p><b><%= I18n.locale == :en ? link_to('switch to Spanish', locale: :es) : link_to('switch to English', locale: :en) %></b></p>
 					<h1>Admin Panel<%= " for #{SETTINGS['site_name']}" if defined?(SETTINGS) && SETTINGS['site_name'] %></h1>
 					
 					<% flash.each do |name, msg| %>
@@ -40,6 +39,7 @@
           <%= yield %>
         </div>
 				<div id="sidebar" class="span3">
+					<%= render 'shared/language_switcher' %>
 					<%= yield :admin_sidebar %>
 				</div>
       </div><!--/row-->

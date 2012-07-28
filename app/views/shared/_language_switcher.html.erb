@@ -1,0 +1,20 @@
+<% if I18n.available_locales.size > 1 %>
+
+	<div class="btn-group">
+	  <a class="btn btn-medium btn-primary btn-success dropdown-toggle" data-toggle="dropdown" href="#">
+		  <%= I18n.locale %>
+	  <span class="caret"></span>
+	  </a>
+	  <ul class="dropdown-menu">
+	  	<% for loc in I18n.available_locales %>
+	    	<%= link_to full_language_name(loc), :locale => loc %>
+	  	<% end %>
+	  </ul>
+  </div>
+<br /><br /><br />
+  <p>
+		<% for loc in I18n.available_locales %>
+    	<%= loc.to_sym != I18n.locale.to_sym ? link_to("#{loc.to_s}", {locale: loc}, class: 'btn btn-mini') : "<b>#{loc}</b>".html_safe %>
+  	<% end %>
+	</p>
+<% end %>
