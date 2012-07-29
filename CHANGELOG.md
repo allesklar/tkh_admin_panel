@@ -2,7 +2,7 @@
 
 
 
-## 0.0.x
+## 0.0.6
 
 * Removed _admin_sidebar.html.erb dependency by having a placeholder template in this gem
 * Create installer to create an admin_sidebar template in host app
