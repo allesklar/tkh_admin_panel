@@ -1,6 +1,13 @@
 # TKH Admin Panel 
 
 
+
+## 0.0.x
+
+* Removed _admin_sidebar.html.erb dependency by have a placeholder in this gem
+* Create installer to create an admin_sidebar template in host app
+
+
 ## 0.0.5
 
 * Added language switcher

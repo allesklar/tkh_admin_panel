@@ -16,7 +16,11 @@ And then execute:
 
     $ bundle
 
-And then of course restart your server! Typically:
+Install the admin_sidebar partial
+
+		$ rails g tkh_admin_panel:install
+
+And then of course start or restart your server!
 
 		$ rails s
 
