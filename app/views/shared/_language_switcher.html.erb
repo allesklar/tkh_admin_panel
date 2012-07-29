@@ -12,7 +12,7 @@
 	  </a>
 	  <ul class="dropdown-menu">
 	  	<% for loc in I18n.available_locales %>
-	    	<%= link_to full_language_name(loc), :locale => loc %>
+	    	<%= link_to full_language_name(loc), :locale => loc unless loc.to_s == I18n.locale.to_s %>
 	  	<% end %>
 	  </ul>
   </div>
