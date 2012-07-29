@@ -25,6 +25,12 @@ And then of course start or restart your server!
 		$ rails s
 
 
+
+## Pre-requisite
+
+You need an authentication system with the current_user helper method
+
+
 ## Usage
 
 In your controller(s):

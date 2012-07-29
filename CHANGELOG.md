@@ -4,8 +4,10 @@
 
 ## 0.0.x
 
-* Removed _admin_sidebar.html.erb dependency by have a placeholder in this gem
+* Removed _admin_sidebar.html.erb dependency by having a placeholder template in this gem
 * Create installer to create an admin_sidebar template in host app
+* Included login_info partial to the layout
+* Polished language switcher to not show link of current language
 
 
 ## 0.0.5

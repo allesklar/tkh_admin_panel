@@ -23,6 +23,7 @@
 		<div class="container-fluid">
 			<div class="row-fluid">
 				<div class="span12">
+					<%= render 'shared/login_info' %>
 					<h1>Admin Panel<%= " for #{SETTINGS['site_name']}" if defined?(SETTINGS) && SETTINGS['site_name'] %></h1>
 					
 					<% flash.each do |name, msg| %>
