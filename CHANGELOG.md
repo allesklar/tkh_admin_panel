@@ -2,6 +2,12 @@
 
 
 
+
+## 0.0.7
+
+* Added a switch_to_admin_layout controller extended instance method
+
+
 ## 0.0.6
 
 * Removed _admin_sidebar.html.erb dependency by having a placeholder template in this gem

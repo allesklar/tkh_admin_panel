@@ -4,7 +4,7 @@ This is a Rails engine with an admin panel layout, assets and basic functionalit
 
 Primarily developed for Ten Thousand Hours but we are happy to share if anybody finds it useful.
 
-Please note that this gem is still in its embryonic phase. I'm just getting started.
+Please note that this gem is still in its infancy. I'm just getting started.
 
 ## Installation
 
@@ -33,11 +33,9 @@ You need an authentication system with the current_user helper method
 
 ## Usage
 
-In your controller(s):
+In your controller's relevant methods:
 
-    $ render layout: 'admin'
-
-... for whichever actions you want to use this layout
+    switch_to_admin_layout
 
 
 ## Contributing
