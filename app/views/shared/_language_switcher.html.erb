@@ -1,5 +1,9 @@
 <% def full_language_name( lang = :en) %>  
-	<% list = {:en => 'English', :fr => 'Français', :es => 'Español'} %>
+	<% list = { :en => 'English', 
+							:fr => 'Français', 
+							:es => 'Español'
+						}
+	%>
   <% list[lang] %>
 <% end %>
 
