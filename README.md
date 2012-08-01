@@ -18,12 +18,11 @@ And then execute:
 
 Install the admin_sidebar partial
 
-		$ rails g tkh_admin_panel:install
+		$ rake tkh_admin_panel:setup
 
 And then of course start or restart your server!
 
 		$ rails s
-
 
 
 ## Pre-requisite

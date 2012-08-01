@@ -3,6 +3,14 @@
 
 
 
+
+## 0.0.8
+
+* Added a link to public web site in admin panel header
+* Refactored the setup rake task and generators. Although there are no needed translations now. The generator is ready to accommodate any which would be needed in the future.
+* There is now a 'rake tkh_admin_panel task
+
+
 ## 0.0.7
 
 * Added a switch_to_admin_layout controller extended instance method
