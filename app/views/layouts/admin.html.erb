@@ -27,7 +27,7 @@
 					<h1>Admin Panel
 						<% if defined?(SETTINGS) && SETTINGS['site_name'] %>
 							<%= " for #{link_to(SETTINGS['site_name'], root_path) }".html_safe %></h1>
-						<% end %>
+						<% end -%>
 					
 					<% flash.each do |name, msg| %>
 					  <div class="alert alert-<%= name == :notice ? "success" : "error" %>">
