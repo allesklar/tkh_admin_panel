@@ -3,7 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Admin Panel<%= " for #{SETTINGS['site_name']}" if defined?(SETTINGS) && SETTINGS['site_name'] %></title>
+		<title>Admin Panel
+			<% if defined?(SETTINGS) && SETTINGS['site_name'] %>
+				<%= " for #{link_to(SETTINGS['site_name'], root_path) }".html_safe %>
+			<% end %>
+		</title>
 		<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
@@ -26,8 +30,9 @@
 					<%= render 'shared/login_info' %>
 					<h1>Admin Panel
 						<% if defined?(SETTINGS) && SETTINGS['site_name'] %>
-							<%= " for #{link_to(SETTINGS['site_name'], root_path) }".html_safe %></h1>
-						<% end -%>
+							<%= " for #{link_to(SETTINGS['site_name'], root_path) }".html_safe %>
+						<% end %>
+					</h1>
 					
 					<% flash.each do |name, msg| %>
 					  <div class="alert alert-<%= name == :notice ? "success" : "error" %>">
