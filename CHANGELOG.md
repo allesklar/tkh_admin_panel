@@ -2,6 +2,9 @@
 
 
 
+## 0.0.9
+
+* Fixed up generation of meta title and h1 title and customize them depending on whether there is a site_name setting.
 
 
 ## 0.0.8
