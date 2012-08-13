@@ -3,9 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Admin Panel
-			<% if defined?(SETTINGS) && SETTINGS['site_name'] %>
-				<%= " for #{link_to(SETTINGS['site_name'], root_path) }".html_safe %>
+		<title>
+			<% if defined?(APP_SETTINGS) && APP_SETTINGS['site_name'] %>
+				<%= t("admin_panel_for") + APP_SETTINGS['site_name'] %>
+			<% else %>
+				<%= t 'admin_panel' %>
 			<% end %>
 		</title>
 		<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
@@ -28,9 +30,11 @@
 			<div class="row-fluid">
 				<div class="span12">
 					<%= render 'shared/login_info' %>
-					<h1>Admin Panel
-						<% if defined?(SETTINGS) && SETTINGS['site_name'] %>
-							<%= " for #{link_to(SETTINGS['site_name'], root_path) }".html_safe %>
+					<h1>
+						<% if defined?(APP_SETTINGS) && APP_SETTINGS['site_name'] %>
+							<%= (t("admin_panel_for") + link_to(APP_SETTINGS['site_name'], root_path)).html_safe %>
+						<% else %>
+							<%= t 'admin_panel' %>
 						<% end %>
 					</h1>
 					
@@ -56,9 +60,9 @@
 		
 		<div class="row-fluid">
 			<footer class="span12">
-				<p><b><%= defined?(SETTINGS) && SETTINGS['web_shop_name'] || "Ten Thousand Hours" %></b><br />
-				<%= defined?(SETTINGS) && SETTINGS['web_shop_short_url'] &&  SETTINGS['web_shop_url'] ? link_to(SETTINGS['web_shop_short_url'], SETTINGS['web_shop_url']) : link_to("http://TenThousandHours.eu", 'http://TenThousandHours.eu') %><br />
-				<%= defined?(SETTINGS) && SETTINGS['web_shop_email'] ? link_to(SETTINGS['web_shop_email'], 'mailto:' + SETTINGS['web_shop_email']) : link_to("swami@TenThousandHours.eu", 'mailto:http://TenThousandHours.eu') %><br /></p>
+				<p><b><%= defined?(APP_SETTINGS) && APP_SETTINGS['web_shop_name'] || "Ten Thousand Hours" %></b><br />
+				<%= defined?(APP_SETTINGS) && APP_SETTINGS['web_shop_short_url'] &&  APP_SETTINGS['web_shop_url'] ? link_to(APP_SETTINGS['web_shop_short_url'], APP_SETTINGS['web_shop_url']) : link_to("http://TenThousandHours.eu", 'http://TenThousandHours.eu') %><br />
+				<%= defined?(APP_SETTINGS) && APP_SETTINGS['web_shop_email'] ? link_to(APP_SETTINGS['web_shop_email'], 'mailto:' + APP_SETTINGS['web_shop_email']) : link_to("swami@TenThousandHours.eu", 'mailto:http://TenThousandHours.eu') %><br /></p>
 			</footer>
 		</div>
 		

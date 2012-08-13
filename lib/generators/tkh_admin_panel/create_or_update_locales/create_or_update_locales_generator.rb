@@ -8,7 +8,7 @@ module TkhAdminPanel
       def copy_locales
         puts 'creating locale files'
         I18n.available_locales.each do |l|
-          copy_file "#{l.to_s}.yml", "config/locales/tkh_admdn_panel.#{l.to_s}.yml"
+          copy_file "#{l.to_s}.yml", "config/locales/tkh_admin_panel.#{l.to_s}.yml"
         end
       end
     end
