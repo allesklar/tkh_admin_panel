@@ -20,7 +20,22 @@ Install the admin_sidebar partial
 
 		$ rake tkh_admin_panel:setup
 
-And then of course start or restart your server!
+Start or restart your server!
+
+		$ rails s
+
+
+## Upgrading
+
+Update the gem:
+
+    $ bundle update tkh_admin_panel
+
+Update locale files. This is only needed with a new minor version number ( second level from left )
+
+		$ rake tkh_admin_panel:update
+
+Start or restart your server!
 
 		$ rails s
 

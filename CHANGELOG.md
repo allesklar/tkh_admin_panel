@@ -2,6 +2,12 @@
 
 
 
+## 0.1
+
+* Added an update rake task.
+* I18n-ized the title meta tag and H1 header in layout
+
+
 ## 0.0.9
 
 * Fixed up generation of meta title and h1 title and customize them depending on whether there is a site_name setting.
