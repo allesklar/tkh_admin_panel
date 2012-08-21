@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>
 			<% if defined?(APP_SETTINGS) && APP_SETTINGS['site_name'] %>
-				<%= t("admin_panel_for") + APP_SETTINGS['site_name'] %>
+				<%= t("admin_panel_for") + ' ' + APP_SETTINGS['site_name'] %>
 			<% else %>
 				<%= t 'admin_panel' %>
 			<% end %>
@@ -32,7 +32,7 @@
 					<%= render 'shared/login_info' %>
 					<h1>
 						<% if defined?(APP_SETTINGS) && APP_SETTINGS['site_name'] %>
-							<%= (t("admin_panel_for") + link_to(APP_SETTINGS['site_name'], root_path)).html_safe %>
+							<%= (t("admin_panel_for") + ' ' + link_to(APP_SETTINGS['site_name'], root_path)).html_safe %>
 						<% else %>
 							<%= t 'admin_panel' %>
 						<% end %>
