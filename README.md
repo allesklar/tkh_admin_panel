@@ -4,7 +4,7 @@ This is a Rails engine with an admin panel layout, assets and basic functionalit
 
 Primarily developed for Ten Thousand Hours but we are happy to share if anybody finds it useful.
 
-Please note that this gem is still in its infancy. I'm just getting started.
+Please note that this gem is still in its infancy. I'm just getting started. It's primarily developed to work in sync with the tkh_cms gem suite but overtime more and more effort will be made to make it work in isolation.
 
 ## Installation
 
@@ -31,7 +31,7 @@ Update the gem:
 
     $ bundle update tkh_admin_panel
 
-Update locale files. This is only needed with a new minor version number ( second level from left )
+Update locale files.
 
 		$ rake tkh_admin_panel:update
 
@@ -47,7 +47,7 @@ You need an authentication system with the current_user helper method
 
 ## Usage
 
-In your controller's relevant methods:
+Add this to your controller's relevant methods:
 
     switch_to_admin_layout
 
