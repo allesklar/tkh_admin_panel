@@ -4,11 +4,13 @@ This is a Rails engine with an admin panel layout, assets and basic functionalit
 
 Primarily developed for Ten Thousand Hours but we are happy to share if anybody finds it useful.
 
-Please note that this gem is still in its infancy. I'm just getting started. It's primarily developed to work in sync with the tkh_cms gem suite but overtime more and more effort will be made to make it work in isolation.
+It's primarily developed to work in sync with the tkh_cms gem suite but over time more and more effort will be made to make it work in isolation.
+
+Please note that this gem is still in its infancy. I'm just getting started. 
 
 ## Installation
 
-This gem was created in sync with Rails 3.2.6 and there is a railties dependency of "~> 3.2". Add this line to your application's Gemfile:
+This gem was created when Rails 3.2.6 was the latest release and there is a railties dependency of "~> 3.2". Add this line to your application's Gemfile:
 
     gem 'tkh_admin_panel', '~> 0.0'
 

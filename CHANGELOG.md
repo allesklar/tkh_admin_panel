@@ -2,6 +2,13 @@
 
 
 
+## 0.1.1
+
+* Cleaned up CSS file
+* Added li tag to items of the language switcher dropdown menu
+* Minor text improvements in admin layout
+
+
 ## 0.1
 
 * Added an update rake task.
