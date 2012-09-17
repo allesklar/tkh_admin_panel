@@ -4,7 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>
-			<% if defined?(APP_SETTINGS) && APP_SETTINGS['site_name'] %>
+			<% if defined?(Setting) && !Setting.first.site_name.blank? %>
+				<%= t("admin_panel_for") + ' ' + Setting.first.site_name %>
+			<% elsif defined?(APP_SETTINGS) && APP_SETTINGS['site_name'] %>
 				<%= t("admin_panel_for") + ' ' + APP_SETTINGS['site_name'] %>
 			<% else %>
 				<%= t 'admin_panel' %>
@@ -31,8 +33,10 @@
 				<div class="span12">
 					<%= render 'shared/login_info' %>
 					<h1>
-						<% if defined?(APP_SETTINGS) && APP_SETTINGS['site_name'] %>
-							<%= (t("admin_panel_for") + ' ' + link_to(APP_SETTINGS['site_name'], root_path)).html_safe %>
+						<% if defined?(Setting) && !Setting.first.site_name.blank? %>
+							<%= (t("admin_panel_for") + ' ' + link_to(Setting.first.site_name, root_path)).html_safe %>
+						<% elsif defined?(APP_SETTINGS) && APP_SETTINGS['site_name'] %>
+							<%= t("admin_panel_for") + ' ' + APP_SETTINGS['site_name'] %>
 						<% else %>
 							<%= t 'admin_panel' %>
 						<% end %>
