@@ -1,7 +1,8 @@
 <% content_for :admin_sidebar do %>
 	<h2>Sections</h2>
 	<ul>
-		<li>links go here</li>
+		<li><%= link_to 'site settings', setting_path(1) %></li>
+		<li>other links go here</li>
 	</ul>
 	
 	<p>To override this, run "rake tkh_admin_panel:setup" and customize the new partial to your liking.</p>

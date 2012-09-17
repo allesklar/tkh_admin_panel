@@ -1,0 +1,22 @@
+<h1>Edit Settings</h1>
+
+<%= simple_form_for @setting, :html => { class: 'form-horizontal' } do |f| %>
+	<%= f.error_notification %>
+	
+  <div class="form-inputs">
+		<%= f.input :site_name %><br />
+		<%= f.input :site_tagline, hint: 'a small descriptive sentence' %><br />
+		<%= f.input :enable_comments_in_pages %><br />
+		<%= f.input :disable_blog, hint: 'should be checked if you do NOT want a blog' %><br />
+		<%= f.input :blog_name %><br />
+		<%= f.input :blog_tagline, hint: 'a small descriptive sentence' %><br />
+		<%= f.input :enable_comments_in_blog %>
+	</div>
+	
+  <div class="form-actions">
+    <%= f.button :submit, :class => 'btn btn-primary' %>
+  </div>
+
+<% end %>
+
+<%= render 'shared/admin_sidebar' %>
