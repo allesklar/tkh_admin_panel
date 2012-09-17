@@ -13,3 +13,12 @@ input, textarea {
 	margin: 1em;
 	text-align: left;
 }
+
+form {
+	margin: 2em .5em;
+}
+
+.form-horizontal .help-block {
+	color: #999;
+	margin-top: 1px;
+}
