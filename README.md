@@ -2,9 +2,7 @@
 
 This is a Rails engine with an admin panel layout, assets and basic functionality. Powered by Twitter Bootstrap + SASS for a modern responsive design.
 
-Primarily developed for Ten Thousand Hours but we are happy to share if anybody finds it useful.
-
-It's primarily developed to work in sync with the tkh_cms gem suite but over time more and more effort will be made to make it work in isolation.
+Primarily developed for Ten Thousand Hours but we are happy to share if anybody finds it useful. It's primarily developed to work in sync with the tkh_cms gem suite but over time more and more effort will be made to make it work in isolation.
 
 Please note that this gem is still in its infancy. I'm just getting started. 
 
@@ -21,6 +19,10 @@ And then execute:
 Install the admin_sidebar partial
 
 		$ rake tkh_admin_panel:setup
+		
+Run the migrations
+		
+		$ rake db:migrate
 
 Start or restart your server!
 
@@ -36,6 +38,10 @@ Update the gem:
 Update locale files.
 
 		$ rake tkh_admin_panel:update
+		
+Run new migrations if any
+		
+		$ rake db:migrate
 
 Start or restart your server!
 

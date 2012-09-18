@@ -2,6 +2,13 @@
 
 
 
+## 0.2
+
+* Added german locale and translations. Upgrader need to run the update task and run migrations
+* Added a site settings scaffold to be used throughout the whole app
+* Improved style of forms
+
+
 ## 0.1.1
 
 * Cleaned up CSS file
