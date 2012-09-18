@@ -11,6 +11,8 @@ Gem::Specification.new do |gem|
   gem.add_dependency "railties", "~> 3.2"
   gem.add_dependency "bootstrap-sass", '~> 2.0'
   gem.add_dependency "simple_form", '~> 2.0'
+  # This gem does not support p tags until wysihtml5 0.4 is released and linked to gem below
+  gem.add_dependency 'bootstrap-wysihtml5-rails'
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
