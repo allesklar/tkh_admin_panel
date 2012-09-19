@@ -2,6 +2,11 @@
 
 
 
+## 0.2.1
+
+* Added inline HTML editor
+
+
 ## 0.2
 
 * Added german locale and translations. Upgrader need to run the update task and run migrations
