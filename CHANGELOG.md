@@ -2,6 +2,11 @@
 
 
 
+## 0.2.2
+
+* Require page javascript file to support autocompletion of page parent
+
+
 ## 0.2.1
 
 * Added inline HTML editor
