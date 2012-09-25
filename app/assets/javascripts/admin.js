@@ -9,3 +9,4 @@
 //= require bootstrap
 //= require bootstrap-wysihtml5-all
 //= require custom
+//= require page
