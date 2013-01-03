@@ -18,6 +18,7 @@ module TkhAdminPanel
       def copy_migrations
         puts 'creating or updating setting migrations'
         migration_template "create_settings.rb", "db/migrate/create_settings.rb"
+        migration_template "add_contact_email_to_settings.rb", "db/migrate/add_contact_email_to_settings.rb"
       end
  
     end

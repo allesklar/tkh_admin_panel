@@ -5,7 +5,7 @@ end
 
 class Setting < ActiveRecord::Base
   
-  attr_accessible :site_name, :site_tagline, :blog_name, :blog_tagline, :disable_blog, :enable_comments_in_pages, :enable_comments_in_blog
+  attr_accessible :company_name, :contact_email, :site_name, :site_tagline, :blog_name, :blog_tagline, :disable_blog, :enable_comments_in_pages, :enable_comments_in_blog
   
   translates :site_name, :site_tagline, :blog_name, :blog_tagline
   

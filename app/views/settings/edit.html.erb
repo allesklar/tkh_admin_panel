@@ -4,7 +4,9 @@
 	<%= f.error_notification %>
 	
   <div class="form-inputs">
-		<%= f.input :site_name %><br />
+		<%= f.input :company_name %><br />
+		<%= f.input :contact_email, hint: 'this is used to get the messages from the contact form and for other things as well.' %><br />
+		<%= f.input :site_name, hint: 'this is often the same as the company name' %><br />
 		<%= f.input :site_tagline, hint: 'a small descriptive sentence' %><br />
 		<%= f.input :enable_comments_in_pages, as: :boolean, inline_label: true, label: false  %><br />
 		<%= f.input :disable_blog, as: :boolean, inline_label: true, label: false, hint: 'should be checked if you do NOT want a blog' %><br />

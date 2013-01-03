@@ -1,6 +1,8 @@
 <h1>Settings</h1>
 
 <p>
+	<strong>Company name:</strong> <%= @setting.company_name %><br />
+	<strong>Contact email:</strong> <%= @setting.contact_email %><br />
 	<strong>Site name:</strong> <%= @setting.site_name %><br />
 	<strong>Site tagline:</strong> <%= @setting.site_tagline %><br />
 	<strong>Enable comments in pages?:</strong> <%= @setting.enable_comments_in_pages? ? "<span class=\"label label-success\">✓</span>".html_safe : "<span class=\"label label-important\">X</span>".html_safe %><br />
