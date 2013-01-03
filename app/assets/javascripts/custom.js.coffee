@@ -2,6 +2,6 @@ jQuery ->
   $("a[rel=popover]").popover()
   $(".tooltip").tooltip()
   $("a[rel=tooltip]").tooltip()
-  $('#editable').wysihtml5()
+  # $('#editable').wysihtml5()
   $('.typeahead').typeahead()
   $('.whatever-man').tooltip()
