@@ -2,6 +2,17 @@
 
 
 
+## 0.2.4
+
+* Disabled tkh_editor - Will replace it soon
+* Added 'company name' and 'contact email' attributes to Setting model
+
+
+## 0.2.3
+
+* Minor debugging
+
+
 ## 0.2.2
 
 * Require page javascript file to support autocompletion of page parent
