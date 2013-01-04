@@ -1,0 +1,15 @@
+Hi Swami Atma,
+
+This is Swami Atma here :-)
+
+Here is the message sent by the controller:
+<%= @message %>
+
+And here is the actual exception:
+<%= @exception %>
+
+... and the exception 'inspected'
+<%= @exception.inspect %>
+
+... and the exception backtrace
+<%= @exception.backtrace.join("\n") unless @exception.backtrace.nil? %>
