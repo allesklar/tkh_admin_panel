@@ -2,6 +2,12 @@
 
 
 
+## 0.2.5
+
+* Fixed info in footer and place an hr tag above it
+* admin.js requires jquery-ui to be needed for the reordering of items later on
+
+
 ## 0.2.4
 
 * Disabled tkh_editor - Will replace it soon
