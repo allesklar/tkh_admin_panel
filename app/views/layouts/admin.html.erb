@@ -64,9 +64,10 @@
 		
 		<div class="row-fluid">
 			<footer class="span12">
-				<p><b><%= defined?(APP_SETTINGS) && APP_SETTINGS['web_shop_name'] || "Ten Thousand Hours" %></b><br />
-				<%= defined?(APP_SETTINGS) && APP_SETTINGS['web_shop_short_url'] &&  APP_SETTINGS['web_shop_url'] ? link_to(APP_SETTINGS['web_shop_short_url'], APP_SETTINGS['web_shop_url']) : link_to("http://TenThousandHours.eu", 'http://TenThousandHours.eu') %><br />
-				<%= defined?(APP_SETTINGS) && APP_SETTINGS['web_shop_email'] ? link_to(APP_SETTINGS['web_shop_email'], 'mailto:' + APP_SETTINGS['web_shop_email']) : link_to("swami@TenThousandHours.eu", 'mailto:http://TenThousandHours.eu') %><br /></p>
+				<hr>
+				<p><b>Ten Thousand Hours</b><br />
+				<%= link_to "http://tenthousandhours.eu", "http://tenthousandhours.eu" %><br />
+				<%= link_to "Contact TKH", "http://tenthousandhours.eu/pages/5-contact-form" %><br /></p>
 			</footer>
 		</div>
 		
