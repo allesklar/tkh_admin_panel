@@ -2,6 +2,11 @@
 
 
 
+## 0.2.5.1
+
+* Removed conditions in using the Setting model in admin layout
+
+
 ## 0.2.5
 
 * Fixed info in footer and place an hr tag above it

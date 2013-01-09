@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title><%= t("admin_panel_for") + ' ' + Setting.first.site_name %></title>
+		<title><%= t("admin_panel_for") + ' ' + Setting.first.try(:site_name) %></title>
 		<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
@@ -24,7 +24,7 @@
 			<div class="row-fluid">
 				<div class="span12">
 					<%= render 'shared/login_info' %>
-					<h1><%= (t("admin_panel_for") + ' ' + link_to(Setting.first.site_name, root_path)).html_safe %></h1>
+					<h1><%= (t("admin_panel_for") + ' ' + link_to(Setting.first.try(:site_name), root_path)).html_safe %></h1>
 					
 					<% flash.each do |name, msg| %>
 					  <div class="alert alert-<%= name == :notice ? "success" : "error" %>">
