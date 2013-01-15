@@ -1,3 +1,3 @@
 module TkhAdminPanel
-  VERSION = "0.2.5.1"
+  VERSION = "0.2.6"
 end

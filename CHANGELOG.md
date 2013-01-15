@@ -2,6 +2,11 @@
 
 
 
+## 0.2.6
+
+* Fixed typo in language switcher
+
+
 ## 0.2.5.1
 
 * Removed conditions in using the Setting model in admin layout
