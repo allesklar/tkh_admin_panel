@@ -2,6 +2,11 @@
 
 
 
+## 0.2.7
+
+* Removed language switcher partial. It's been moved to the tkh_menus gem
+
+
 ## 0.2.6
 
 * Fixed typo in language switcher
