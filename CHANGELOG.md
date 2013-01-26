@@ -2,6 +2,13 @@
 
 
 
+## 0.2.8
+
+* Removed tkh_inline_editor dependency
+* Added pages.js to the admin js manifest.
+* Added ckeditor js file to the admin js manifest. CKEditor is now the official html inline editor of the tkh_cms suite. Until next change.
+
+
 ## 0.2.7
 
 * Removed language switcher partial. It's been moved to the tkh_menus gem
