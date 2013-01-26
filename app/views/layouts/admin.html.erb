@@ -41,7 +41,7 @@
 		<div class="container-fluid">
 			<div class="row-fluid">
 				<div class="span12">
-					<h1><%= (t("admin_panel_for") + ' ' + link_to(Setting.first.try(:site_name), root_path)).html_safe %></h1>
+					<h1><%= t "admin_panel" %></h1>
 					
 					<% flash.each do |name, msg| %>
 					  <div class="alert alert-<%= name == :notice ? "success" : "error" %>">
