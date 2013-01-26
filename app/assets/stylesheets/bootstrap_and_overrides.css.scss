@@ -1,19 +1,19 @@
 //// setting variables
 //// some colors
-$orange: #EEC6AC;
-$green: #B3EEAC;
-$blue: #ACC6EE;
-$yellow: #EDAEAC;
-$lightBlue: #ACDBEE;
-
-// navbar
-$navbarInverseBackground: darken($blue, 40%);
-$navbarInverseBackgroundHighlight: darken($blue, 25%);
-$navbarInverseBorder: $orange;
-$navbarInverseText: $lightBlue;
-$navbarInverseLinkColor: $lightBlue;
-$navbarInverseLinkColorHover: lighten($lightBlue, 30%);
-$navbarInverseLinkColorActive: lighten($lightBlue, 30%);
+//$orange: #EEC6AC;
+//$green: #B3EEAC;
+//$blue: #ACC6EE;
+//$yellow: #EDAEAC;
+//$lightBlue: #ACDBEE;
+//
+//// navbar
+//$navbarInverseBackground: darken($blue, 40%);
+//$navbarInverseBackgroundHighlight: darken($blue, 25%);
+//$navbarInverseBorder: $orange;
+//$navbarInverseText: $lightBlue;
+//$navbarInverseLinkColor: $lightBlue;
+//$navbarInverseLinkColorHover: lighten($lightBlue, 30%);
+//$navbarInverseLinkColorActive: lighten($lightBlue, 30%);
 
 @import "bootstrap";
 @import "bootstrap-responsive";
