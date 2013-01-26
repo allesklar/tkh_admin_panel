@@ -21,10 +21,26 @@
 
 	<body>
 		
+		<div class="navbar navbar-fixed-top navbar-inverse">
+	    <div class="navbar-inner">
+		    <div class="container">
+		    	<ul class="nav">
+						<%= content_tag :li, link_to("<i class=\"icon-home icon-white\"></i> #{Setting.first.try(:site_name)}".html_safe, root_path)  %>
+						<%= content_tag :li, link_to('blog', blog_path) %>
+						<li class='dropdown'>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-user icon-white"></i> <%= current_user.email %> <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<%= content_tag :li, link_to('logout', logout_path) %>
+							</ul>
+						</li>
+			    </ul>
+		    </div>
+	    </div>
+    </div>
+		
 		<div class="container-fluid">
 			<div class="row-fluid">
 				<div class="span12">
-					<%= render 'shared/login_info' %>
 					<h1><%= (t("admin_panel_for") + ' ' + link_to(Setting.first.try(:site_name), root_path)).html_safe %></h1>
 					
 					<% flash.each do |name, msg| %>

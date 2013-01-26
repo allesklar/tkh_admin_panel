@@ -1,25 +1,19 @@
 //// setting variables
 //// some colors
-//$purple: #52247f;
-//$blue: #008fc5;
-//$red: #ad5648;
-//$purple20: #dcd3e5;
-//$purple10: #ede9f2;
-//$purple5: #f6f4f8;
-//
-//$linkColor: $purple;
-//$linkColorHover: $red;
-//
-//// Set the correct sprite paths
-//$iconSpritePath: image-path('glyphicons-halflings.png');
-//$iconWhiteSpritePath: image-path('glyphicons-halflings-white.png');
-//
-//// navbar
-//$navbarBackground: $red;
-//$navbarBackgroundHighlight: #ad5648;
-//$navbarText: #fff;
-//$navbarLinkColor: #fff;
-//$navbarLinkColorHover: $purple20;
+$orange: #EEC6AC;
+$green: #B3EEAC;
+$blue: #ACC6EE;
+$yellow: #EDAEAC;
+$lightBlue: #ACDBEE;
+
+// navbar
+$navbarInverseBackground: darken($blue, 40%);
+$navbarInverseBackgroundHighlight: darken($blue, 25%);
+$navbarInverseBorder: $orange;
+$navbarInverseText: $lightBlue;
+$navbarInverseLinkColor: $lightBlue;
+$navbarInverseLinkColorHover: lighten($lightBlue, 30%);
+$navbarInverseLinkColorActive: lighten($lightBlue, 30%);
 
 @import "bootstrap";
 @import "bootstrap-responsive";
