@@ -8,5 +8,6 @@
 //= require jquery-ui
 //= require jquery_ujs
 //= require bootstrap
+//= require ckeditor-jquery
 //= require custom
 //= require pages
