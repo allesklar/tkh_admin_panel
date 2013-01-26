@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   # This gem does not support p tags until wysihtml5 0.4 is released and linked to gem below
   # gem.add_dependency 'bootstrap-wysihtml5-rails'
   # try using my own tkh_inline_editor instead
-  gem.add_dependency 'tkh_inline_editor'
+  # gem.add_dependency 'tkh_inline_editor'
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }

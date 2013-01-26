@@ -3,7 +3,7 @@ require 'bootstrap-sass'
 require 'simple_form'
 require 'tkh_admin_panel/tkh_admin_panel_action_controller_extension'
 # require 'bootstrap-wysihtml5-rails'
-require 'tkh_inline_editor'
+# require 'tkh_inline_editor'
 
 module TkhAdminPanel
   class Engine < ::Rails::Engine
