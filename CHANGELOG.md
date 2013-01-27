@@ -2,6 +2,11 @@
 
 
 
+## 0.3
+
+* Styled up the admin layout pretty good
+
+
 ## 0.2.8
 
 * Removed tkh_inline_editor dependency
