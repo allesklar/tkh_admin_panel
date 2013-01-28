@@ -2,3 +2,30 @@ es:
   admin_panel: "El panel de administración"
   admin_panel_with_site_name: "El panel de administración: "
   
+  activerecord:
+    models:
+      settings: 'configuración del sitio'
+    
+    attributes:
+      settings:
+        site_name: 'nombre del sitio'
+        site_tagline: 'lema sitio'
+        enable_comments_in_pages: 'habilitar los comentarios en las páginas'
+        disable_blog: 'deshabilitar el blog'
+        blog_name: 'nombre del blog'
+        blog_tagline: 'blog lema'
+        enable_comments_in_blog: 'habilitar los comentarios en el blog'
+        contact_email: 'correo electrónico de contacto'
+        company_name: 'nombre de compañía'
+        
+  settings:
+    blog_enabled: '¿blogs habilitado?'
+    
+    update:
+      notice: 'Configuración del sitio se han actualizado con éxito.'
+      warning: 'Hubo un problema al guardar los cambios.'
+        
+  colon: ':'
+  questionmark: '?'
+  
+  

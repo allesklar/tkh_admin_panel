@@ -1,3 +1,29 @@
 en:
   admin_panel: 'Admin Panel'
   admin_panel_for: "Admin Panel for "
+  
+  activerecord:
+    models:
+      settings: 'site settings'
+    
+    attributes:
+      settings:
+        site_name: 'site name'
+        site_tagline: 'site tagline'
+        enable_comments_in_pages: 'enable comments in pages'
+        disable_blog: 'disable blog'
+        blog_name: 'blog name'
+        blog_tagline: 'blog tagline'
+        enable_comments_in_blog: 'enable comments in blog'
+        contact_email: 'contact email'
+        company_name: 'company name'
+        
+  settings:
+    blog_enabled: 'blog enabled?'
+    
+    update:
+      notice: 'Site Settings were successfully updated.'
+      warning: 'There was a problem saving your changes.'
+        
+  colon: ':'
+  questionmark: '?'

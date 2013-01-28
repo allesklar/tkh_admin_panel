@@ -2,3 +2,29 @@ fr:
   admin_panel: "Panneau d'administration"
   admin_panel_for: "Panneau d'administration pour "
   
+  activerecord:
+    models:
+      settings: 'options du site'
+      
+    attributes:
+      settings:
+        site_name: 'nom du site'
+        site_tagline: 'slogan du site'
+        enable_comments_in_pages: 'commentaires dans les pages'
+        disable_blog: 'désactiver blog'
+        blog_name: 'nom du blog'
+        blog_tagline: 'slogan du blog'
+        enable_comments_in_blog: 'commentaires dans le blog'
+        contact_email: 'email du contact'
+        company_name: 'raison sociale'
+
+  settings:
+    blog_enabled: 'activer le blog ?'
+
+    update:
+      notice: 'Succes: les options du site ont été mises à jour.'
+      warning: "Il y'a eu un problem et vos modifications n'ont pas été sauvegardées."
+
+  colon: ' :'
+  questionmark: ' ?'
+  

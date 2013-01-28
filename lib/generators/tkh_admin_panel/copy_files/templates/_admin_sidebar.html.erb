@@ -1,9 +1,12 @@
 <% content_for :admin_sidebar do %>
-	<h2>Sections</h2>
+	<h2><%= t('sections') %></h2>
 	<ul>
-		<li><%= link_to 'site settings', setting_path(1) %></li>
-		<li><%= link_to 'scaffold name', 'path' %></li>
-		<li>for example ...</li>
-		<li><%= link_to 'pages', pages_path %></li>
+		<li><%= link_to t('activerecord.models.pages'), pages_path %></li>
+		<li><%= link_to t('activerecord.models.comments'), comments_path %></li>
+		<li><%= link_to t('activerecord.models.illustrations'), illustrations_path %></li>
+		<li><%= link_to t('activerecord.models.menus'), menus_path %></li>
+		<li><%= link_to t('activerecord.models.users'), users_path %></li>
+		<li><%= link_to t('contacts.messages_from_forms'), contacts_path %></li>
+		<li><%= link_to t('activerecord.models.settings'), setting_path(1) %></li>
 	</ul>
 <% end %>

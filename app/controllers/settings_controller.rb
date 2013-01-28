@@ -16,9 +16,9 @@ class SettingsController < ApplicationController
   def update
     @setting = Setting.first
     if @setting.update_attributes(params[:setting])
-      redirect_to @setting, notice: 'Settings were successfully updated.'
+      redirect_to @setting, notice: t('settings.update.notice')
     else
-      render action: "edit", layout: 'admin'
+      render action: "edit", warning: t('settings.update.warning')
     end
   end
 end
