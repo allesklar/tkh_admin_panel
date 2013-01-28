@@ -2,6 +2,13 @@
 
 
 
+## 0.3.1
+
+* Added context tab menu in site settings section
+* Set up some translations
+* Tidied up dependencies
+
+
 ## 0.3
 
 * Styled up the admin layout pretty good
