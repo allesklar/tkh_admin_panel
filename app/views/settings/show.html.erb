@@ -1,5 +1,7 @@
 <h1><%= t('activerecord.models.settings') %></h1>
 
+<%= render 'tab_admin_menu' %>
+
 <p>
 	<strong><%= t('activerecord.attributes.settings.company_name') + t('colon') %></strong> <%= @setting.company_name %><br />
 	<strong><%= t('activerecord.attributes.settings.contact_email') + t('colon') %></strong> <%= @setting.contact_email %><br />
