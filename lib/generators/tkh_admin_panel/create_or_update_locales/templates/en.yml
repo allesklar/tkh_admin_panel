@@ -26,5 +26,6 @@ en:
       warning: 'There was a problem saving your changes.'
         
   colon: ':'
-  questionmark: '?'
+  question_mark: '?'
+  question_mark_inverted: ''
   view: 'view'

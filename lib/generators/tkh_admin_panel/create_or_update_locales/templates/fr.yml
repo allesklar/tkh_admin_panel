@@ -26,6 +26,7 @@ fr:
       warning: "Il y'a eu un problem et vos modifications n'ont pas été sauvegardées."
 
   colon: ' :'
-  questionmark: ' ?'
+  question_mark: ' ?'
+  question_mark_inverted: ''
   view: 'voir'
   
