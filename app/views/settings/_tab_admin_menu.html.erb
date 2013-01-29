@@ -1,15 +1,4 @@
-<ul class="nav nav-tabs" id="admin-menu-tab">
-	
-	<% if controller.action_name.to_s == 'show' %>
-		<%= content_tag :li, link_to(t('view'), Setting.first), class: 'active' %>
-	<% else %>
-			<%= content_tag :li, link_to(t('view'), Setting.first) %>
-	<% end -%>
-	
-	<% if controller.action_name.to_s == 'edit' %>
-		<%= content_tag :li, link_to(t('edit'), Setting.first), class: 'active' %>
-	<% else %>
-			<%= content_tag :li, link_to(t('edit'), edit_setting_path(Setting.first)) %>
-	<% end -%>
-	
+<ul class="nav nav-tabs" id="admin-menu-tab">	
+	<%= content_tag :li, link_to(t('view'), Setting.first), ({ class: 'active' } if controller.action_name.to_s == 'show' ) %>
+	<%= content_tag :li, link_to(t('edit'), edit_setting_path(Setting.first)), ({ class: 'active' } if controller.action_name.to_s == 'edit') %>	
 </ul>
