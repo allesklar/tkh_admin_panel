@@ -7,7 +7,7 @@ es:
       settings: 'configuración del sitio'
     
     attributes:
-      settings:
+      setting:
         site_name: 'nombre del sitio'
         site_tagline: 'lema sitio'
         enable_comments_in_pages: 'habilitar los comentarios en las páginas'
@@ -20,11 +20,18 @@ es:
         
   settings:
     blog_enabled: '¿blogs habilitado?'
+    hint:
+      contact_email: 'this is used to get the messages from the contact form and for other things as well.'
+      site_name: 'this is often the same as the company name'
+      site_tagline: 'a small descriptive sentence'
+      disable_blog: 'should be checked if you do NOT want a blog'
+      blog_tagline:  'a small descriptive sentence'
     
     update:
       notice: 'Configuración del sitio se han actualizado con éxito.'
       warning: 'Hubo un problema al guardar los cambios.'
         
+  
   colon: ':'
   question_mark: '?'
   question_mark_inverted: '¿'

@@ -7,7 +7,7 @@ de:
       settings: 'site settings'
     
     attributes:
-      settings:
+      setting:
         site_name: 'site name'
         site_tagline: 'site tagline'
         enable_comments_in_pages: 'enable comments in pages'
@@ -20,6 +20,12 @@ de:
         
   settings:
     blog_enabled: 'blog enabled?'
+    hint:
+      contact_email: 'this is used to get the messages from the contact form and for other things as well.'
+      site_name: 'this is often the same as the company name'
+      site_tagline: 'a small descriptive sentence'
+      disable_blog: 'should be checked if you do NOT want a blog'
+      blog_tagline:  'a small descriptive sentence'
     
     update:
       notice: 'Site Settings were successfully updated.'

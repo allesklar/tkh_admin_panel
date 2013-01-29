@@ -7,13 +7,13 @@
 	
   <div class="form-inputs">
 		<%= f.input :company_name %><br />
-		<%= f.input :contact_email, hint: 'this is used to get the messages from the contact form and for other things as well.' %><br />
-		<%= f.input :site_name, hint: 'this is often the same as the company name' %><br />
-		<%= f.input :site_tagline, hint: 'a small descriptive sentence' %><br />
+		<%= f.input :contact_email, hint: t('settings.hint.contact_email') %><br />
+		<%= f.input :site_name, hint: t('settings.hint.site_name') %><br />
+		<%= f.input :site_tagline, hint: t('settings.hint.site_tagline') %><br />
 		<%= f.input :enable_comments_in_pages, as: :boolean, inline_label: true, label: false  %><br />
-		<%= f.input :disable_blog, as: :boolean, inline_label: true, label: false, hint: 'should be checked if you do NOT want a blog' %><br />
+		<%= f.input :disable_blog, as: :boolean, inline_label: true, label: false, hint: t('settings.hint.disable_blog') %><br />
 		<%= f.input :blog_name %><br />
-		<%= f.input :blog_tagline, hint: 'a small descriptive sentence' %><br />
+		<%= f.input :blog_tagline, hint: t('settings.hint.blog_tagline') %><br />
 		<%= f.input :enable_comments_in_blog, as: :boolean, inline_label: true, label: false  %>
 	</div>
 	

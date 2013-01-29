@@ -3,15 +3,15 @@
 <%= render 'tab_admin_menu' %>
 
 <p>
-	<strong><%= t('activerecord.attributes.settings.company_name') + t('colon') %></strong> <%= @setting.company_name %><br />
-	<strong><%= t('activerecord.attributes.settings.contact_email') + t('colon') %></strong> <%= @setting.contact_email %><br />
-	<strong><%= t('activerecord.attributes.settings.site_name') + t('colon') %></strong> <%= @setting.site_name %><br />
-	<strong><%= t('activerecord.attributes.settings.site_tagline') + t('colon') %></strong> <%= @setting.site_tagline %><br />
-	<strong><%= t('question_mark_inverted') + t('activerecord.attributes.settings.enable_comments_in_pages') + t('question_mark') %></strong> <%= @setting.enable_comments_in_pages? ? "<span class=\"label label-success\">✓</span>".html_safe : "<span class=\"label label-important\">X</span>".html_safe %><br />
+	<strong><%= t('activerecord.attributes.setting.company_name') + t('colon') %></strong> <%= @setting.company_name %><br />
+	<strong><%= t('activerecord.attributes.setting.contact_email') + t('colon') %></strong> <%= @setting.contact_email %><br />
+	<strong><%= t('activerecord.attributes.setting.site_name') + t('colon') %></strong> <%= @setting.site_name %><br />
+	<strong><%= t('activerecord.attributes.setting.site_tagline') + t('colon') %></strong> <%= @setting.site_tagline %><br />
+	<strong><%= t('question_mark_inverted') + t('activerecord.attributes.setting.enable_comments_in_pages') + t('question_mark') %></strong> <%= @setting.enable_comments_in_pages? ? "<span class=\"label label-success\">✓</span>".html_safe : "<span class=\"label label-important\">X</span>".html_safe %><br />
 	<strong><%= t('question_mark_inverted') + t('settings.blog_enabled') %></strong> <%= @setting.disable_blog? ? "<span class=\"label label-important\">X</span>".html_safe : "<span class=\"label label-success\">✓</span>".html_safe %><br />
-	<strong><%= t('activerecord.attributes.settings.blog_name') + t('colon') %></strong> <%= @setting.blog_name %><br />
-	<strong><%= t('activerecord.attributes.settings.blog_tagline') + t('colon') %></strong> <%= @setting.blog_tagline %><br />
-	<strong><%= t('question_mark_inverted') + t('activerecord.attributes.settings.enable_comments_in_blog') + t('question_mark') %></strong> <%= @setting.enable_comments_in_blog? ? "<span class=\"label label-success\">✓</span>".html_safe : "<span class=\"label label-important\">X</span>".html_safe %>
+	<strong><%= t('activerecord.attributes.setting.blog_name') + t('colon') %></strong> <%= @setting.blog_name %><br />
+	<strong><%= t('activerecord.attributes.setting.blog_tagline') + t('colon') %></strong> <%= @setting.blog_tagline %><br />
+	<strong><%= t('question_mark_inverted') + t('activerecord.attributes.setting.enable_comments_in_blog') + t('question_mark') %></strong> <%= @setting.enable_comments_in_blog? ? "<span class=\"label label-success\">✓</span>".html_safe : "<span class=\"label label-important\">X</span>".html_safe %>
 </p>
 
 <%= link_to t('edit'), edit_setting_path(@setting), class: 'btn btn-primary' %>

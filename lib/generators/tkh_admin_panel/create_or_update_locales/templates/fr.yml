@@ -7,7 +7,7 @@ fr:
       settings: 'options du site'
       
     attributes:
-      settings:
+      setting:
         site_name: 'nom du site'
         site_tagline: 'slogan du site'
         enable_comments_in_pages: 'commentaires dans les pages'
@@ -20,6 +20,12 @@ fr:
 
   settings:
     blog_enabled: 'activer le blog ?'
+    hint:
+      contact_email: 'nous utilisons celle-ci pour les messages envoyés depuis le formulaire de contact'
+      site_name: "c'est souvent le même que la raison sociale. Pas toujours"
+      site_tagline: 'une phrase courte et bien pensée'
+      disable_blog: 'cochez si vous ne voulez PAS un blog'
+      blog_tagline:  'une phrase courte et bien pensée'
 
     update:
       notice: 'Succes: les options du site ont été mises à jour.'
@@ -29,4 +35,3 @@ fr:
   question_mark: ' ?'
   question_mark_inverted: ''
   view: 'voir'
-  

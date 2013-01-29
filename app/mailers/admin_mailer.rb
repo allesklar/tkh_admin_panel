@@ -1,5 +1,5 @@
 class AdminMailer < ActionMailer::Base
-  default from: "Exception Notifier <deploy@ohlalaweb.com>"
+  default from: "Exception Notifier <deploy@ohlalaweb.pragmaticyoga.org>"
   
   def rescued_exceptions(exception, message)
     @exception, @message = exception, message
