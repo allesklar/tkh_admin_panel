@@ -30,8 +30,3 @@ fr:
     update:
       notice: 'Succes: les options du site ont été mises à jour.'
       warning: "Il y'a eu un problem et vos modifications n'ont pas été sauvegardées."
-
-  colon: ' :'
-  question_mark: ' ?'
-  question_mark_inverted: ''
-  view: 'voir'

@@ -30,11 +30,3 @@ es:
     update:
       notice: 'Configuración del sitio se han actualizado con éxito.'
       warning: 'Hubo un problema al guardar los cambios.'
-        
-  
-  colon: ':'
-  question_mark: '?'
-  question_mark_inverted: '¿'
-  view: 'ver'
-  
-  
