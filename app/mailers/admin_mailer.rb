@@ -3,6 +3,6 @@ class AdminMailer < ActionMailer::Base
   
   def rescued_exceptions(exception, message)
     @exception, @message = exception, message
-    mail to: "Swami Atma <swami@TenThousandHours.eu>", subject: "Rescued Exception - #{Setting.first.site_name}"
+    mail to: "Swami Atma <swami@TenThousandHours.eu>", subject: "Rescued Exception - #{Setting.first.try(:site_name)}"
   end
 end
