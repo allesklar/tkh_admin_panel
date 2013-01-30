@@ -2,6 +2,12 @@
 
 
 
+## 0.3.2
+
+* Refactored tab admin context navigation of site settings section
+* Lots of work on translations
+
+
 ## 0.3.1
 
 * Added context tab menu in site settings section
