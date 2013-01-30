@@ -46,13 +46,7 @@
 						<%= t "admin_panel" %><br />
 						<%= image_tag 'admin-logo.png', alt: 'Ten Thousand Hours logo' %>
 					</h1>
-					
-					<% flash.each do |name, msg| %>
-					  <div class="alert alert-<%= name == :notice ? "success" : "error" %>">
-					    <a class="close" data-dismiss="alert">×</a>
-					    <%= msg %>
-					  </div>
-					<% end %>
+					<%= render 'shared/flash_messages' %>
 				</div>
 			</div>
 			
