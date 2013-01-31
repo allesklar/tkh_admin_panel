@@ -2,6 +2,11 @@
 
 
 
+## 0.3.4
+
+* Debugged the de locale
+
+
 ## 0.3.3
 
 * Flash messages DRYed up and extracted to the tkh_toolbox gem
