@@ -4,7 +4,7 @@ de:
   
   activerecord:
     models: Modell
-      settings: 'Seiten Einstellungen'
+    settings: 'Seiten Einstellungen'
 
     attributes:
       setting:
@@ -21,7 +21,7 @@ de:
   settings:
     blog_enabled: 'Blog aktiviert?'
     hint:
-      contact_email: 'dies wird benötigt, um die Nachrichten des Kontaktformulars zu erhalten und auch für ander Dinge this is used to get the messages from the contact form and for other things as well.'
+      contact_email: 'dies wird benötigt, um die Nachrichten des Kontaktformulars zu erhalten und auch für ander Dinge.'
       site_name: 'Ist häufig identisch mit dem Firmennamen'
       site_tagline: 'ein kurzer beschreibender Satz'
       disable_blog: 'sollte markiert sein, wenn du KEINEN Blog willst'
