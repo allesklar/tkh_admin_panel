@@ -3,30 +3,30 @@ de:
   admin_panel_for: "Administratorschaltfläche für"
   
   activerecord:
-    models:
-      settings: 'site settings'
-    
+    models: Modell
+      settings: 'Seiten Einstellungen'
+
     attributes:
       setting:
-        site_name: 'site name'
-        site_tagline: 'site tagline'
-        enable_comments_in_pages: 'enable comments in pages'
-        disable_blog: 'disable blog'
-        blog_name: 'blog name'
-        blog_tagline: 'blog tagline'
-        enable_comments_in_blog: 'enable comments in blog'
-        contact_email: 'contact email'
-        company_name: 'company name'
-        
+        site_name: 'Seitenname'
+        site_tagline: 'Seiten-Überschrift'
+        enable_comments_in_pages: 'Kommentare auf der Seite aktivieren'
+        disable_blog: 'Blog ausschalten'
+        blog_name: 'Blogname'
+        blog_tagline: 'Blog-Überschrift'
+        enable_comments_in_blog: 'Kommentare im Blog aktivieren'
+        contact_email: 'Kontaktemail'
+        company_name: 'Firmenname'
+
   settings:
-    blog_enabled: 'blog enabled?'
+    blog_enabled: 'Blog aktiviert?'
     hint:
-      contact_email: 'this is used to get the messages from the contact form and for other things as well.'
-      site_name: 'this is often the same as the company name'
-      site_tagline: 'a small descriptive sentence'
-      disable_blog: 'should be checked if you do NOT want a blog'
-      blog_tagline:  'a small descriptive sentence'
-    
+      contact_email: 'dies wird benötigt, um die Nachrichten des Kontaktformulars zu erhalten und auch für ander Dinge this is used to get the messages from the contact form and for other things as well.'
+      site_name: 'Ist häufig identisch mit dem Firmennamen'
+      site_tagline: 'ein kurzer beschreibender Satz'
+      disable_blog: 'sollte markiert sein, wenn du KEINEN Blog willst'
+      blog_tagline:  'ein kurzer beschreibender Satz'
+
     update:
-      notice: 'Site Settings were successfully updated.'
-      warning: 'There was a problem saving your changes.'
+      notice: 'Die Seiteneinstellungen wurden aktualisiert.'
+      warning: 'Beim Speichern der Änderungen ist ein Fehler aufgetreten.'
