@@ -2,6 +2,13 @@
 
 
 
+## 0.3.3
+
+* Flash messages DRYed up and extracted to the tkh_toolbox gem
+* Hyphenation of the admin layout
+* Slight debugging
+
+
 ## 0.3.2
 
 * Refactored tab admin context navigation of site settings section
