@@ -3,8 +3,8 @@ de:
   admin_panel_for: "Administratorschaltfläche für"
   
   activerecord:
-    models: Modell
-    settings: 'Seiten Einstellungen'
+    models:
+      settings: 'Seiten Einstellungen'
 
     attributes:
       setting:
