@@ -7,13 +7,13 @@
 	
   <div class="form-inputs">
 		<%= f.input :company_name %><br />
-		<%= f.input :contact_email, hint: t('settings.hint.contact_email') %><br />
-		<%= f.input :site_name, hint: t('settings.hint.site_name') %><br />
-		<%= f.input :site_tagline, hint: t('settings.hint.site_tagline') %><br />
-		<%= f.input :enable_comments_in_pages, as: :boolean, inline_label: true, label: false  %><br />
-		<%= f.input :disable_blog, as: :boolean, inline_label: true, label: false, hint: t('settings.hint.disable_blog') %><br />
-		<%= f.input :blog_name %><br />
-		<%= f.input :blog_tagline, hint: t('settings.hint.blog_tagline') %><br />
+		<%= f.input :contact_email, hint: t('settings.hint.contact_email') %>
+		<%= f.input :site_name, hint: t('settings.hint.site_name') %>
+		<%= f.input :site_tagline, hint: t('settings.hint.site_tagline') %>
+		<%= f.input :enable_comments_in_pages, as: :boolean, inline_label: true, label: false  %>
+		<%= f.input :disable_blog, as: :boolean, inline_label: true, label: false, hint: t('settings.hint.disable_blog') %>
+		<%= f.input :blog_name %>
+		<%= f.input :blog_tagline, hint: t('settings.hint.blog_tagline') %>
 		<%= f.input :enable_comments_in_blog, as: :boolean, inline_label: true, label: false  %>
 	</div>
 	
