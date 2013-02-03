@@ -2,6 +2,12 @@
 
 
 
+## 0.3.5
+
+* Cleaned up the settings form
+* The navbar login info has been extracted to the tkh_authentication gem
+
+
 ## 0.3.4
 
 * Debugged the de locale
