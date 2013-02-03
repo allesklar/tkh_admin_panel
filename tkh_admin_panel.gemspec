@@ -11,6 +11,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency "railties", "~> 3.2"
   gem.add_dependency "bootstrap-sass", '~> 2.0'
   gem.add_dependency "simple_form", '~> 2.0'
+  gem.add_dependency "tkh_authentication", '~> 0.1'
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }

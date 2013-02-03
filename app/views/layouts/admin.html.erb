@@ -28,12 +28,7 @@
 		    	<ul class="nav">
 						<%= content_tag :li, link_to(Setting.first.try(:site_name), root_path)  %>
 						<%= content_tag :li, link_to(t('blog.itself'), blog_path) %>
-						<li class='dropdown'>
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><%= current_user.email %> <b class="caret"></b></a>
-							<ul class="dropdown-menu">
-								<%= content_tag :li, link_to(t('logout'), logout_path) %>
-							</ul>
-						</li>
+						<%= render 'shared/login_info_for_navbar' %>
 			    </ul>
 		    </div>
 	    </div>
