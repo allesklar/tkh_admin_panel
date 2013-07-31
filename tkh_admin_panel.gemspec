@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency "railties", "~> 4.0"
   gem.add_dependency "bootstrap-sass", '~> 2.3.2'
-  gem.add_dependency "simple_form", '~> 2.1'
+  gem.add_dependency "simple_form", '3.0.0.rc'
   gem.add_dependency "tkh_authentication", '~> 0.9'
 
   gem.files         = `git ls-files`.split($\)
