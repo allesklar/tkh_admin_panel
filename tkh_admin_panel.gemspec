@@ -8,15 +8,15 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{A Rails admin panel engine with layout, assets, and basic functionality}
   gem.homepage      = "https://github.com/allesklar/tkh_admin_panel"
 
-  gem.add_dependency "railties", "~> 4.0"
-  gem.add_dependency "bootstrap-sass", '~> 2.3.2'
-  gem.add_dependency "simple_form", '3.0.0.rc'
-  gem.add_dependency "tkh_authentication", '~> 0.9'
-
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "tkh_admin_panel"
   gem.require_paths = ["lib"]
   gem.version       = TkhAdminPanel::VERSION
+
+  gem.add_dependency "railties", "~> 4.0"
+  gem.add_dependency "bootstrap-sass", '~> 2.3.2'
+  gem.add_dependency "simple_form", '3.0.0.rc'
+  gem.add_dependency "tkh_authentication", '~> 0.9'
 end
