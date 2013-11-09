@@ -16,7 +16,8 @@ Gem::Specification.new do |gem|
   gem.version       = TkhAdminPanel::VERSION
 
   gem.add_dependency "railties", "~> 4.0"
-  gem.add_dependency "bootstrap-sass", '~> 2.3.2'
+  gem.add_dependency "bootstrap-sass"
+  gem.add_dependency "bootstrap-will_paginate"
   gem.add_dependency "simple_form", '3.0.0.rc'
   gem.add_dependency "tkh_authentication", '~> 0.9'
 end
