@@ -3,6 +3,10 @@ class SettingsController < ApplicationController
   before_filter :authenticate
   before_filter :authenticate_with_admin
 
+  def index
+    redirect_to setting_path(Setting.first)
+  end
+
   def show
     @setting = Setting.first
     switch_to_admin_layout
