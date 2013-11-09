@@ -5,6 +5,7 @@ require 'bootstrap-will_paginate'
 require 'simple_form'
 require 'tkh_admin_panel/tkh_admin_panel_action_controller_extension'
 require 'tkh_authentication'
+require 'jquery-ui-rails'
 
 module TkhAdminPanel
   class Engine < ::Rails::Engine

@@ -21,4 +21,5 @@ Gem::Specification.new do |gem|
   gem.add_dependency "bootstrap-will_paginate"
   gem.add_dependency "simple_form", '3.0.0.rc'
   gem.add_dependency "tkh_authentication", '~> 0.9'
+  gem.add_dependency "jquery-ui-rails"
 end
