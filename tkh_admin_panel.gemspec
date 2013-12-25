@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = TkhAdminPanel::VERSION
 
-  gem.add_dependency "railties", "~> 4.1"
+  gem.add_dependency "railties", "> 4.0"
   gem.add_dependency "globalize"
   gem.add_dependency "bootstrap-sass"
   gem.add_dependency "bootstrap-will_paginate"
