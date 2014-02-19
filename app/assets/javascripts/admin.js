@@ -8,6 +8,7 @@
 //= require jquery.ui.all
 //= require jquery_ujs
 //= require bootstrap
+//= require twitter/typeahead.min
 //= require ckeditor-jquery
-//= require custom
+//= require admin/custom
 //= require pages
