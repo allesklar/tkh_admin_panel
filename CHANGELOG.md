@@ -2,6 +2,9 @@
 
 
 
+## 0.9.1
+
+* Resolving gem dependencies
 
 
 ## 0.9
