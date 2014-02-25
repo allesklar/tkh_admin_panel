@@ -6,8 +6,9 @@
 
 ## 0.9
 
-* Cleaned up the settings form
-* The navbar login info has been extracted to the tkh_authentication gem
+* Upgraded to Rails 4
+* Gem is NOT backward compatible. Versions less than 0.9 should be used for Rails 3
+* Upgraded Bootstrap and the United bootswatch
 
 
 ## 0.3.5
