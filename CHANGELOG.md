@@ -1,5 +1,13 @@
-# TKH Admin Panel 
+# TKH Admin Panel
 
+
+
+
+
+## 0.9
+
+* Cleaned up the settings form
+* The navbar login info has been extracted to the tkh_authentication gem
 
 
 ## 0.3.5

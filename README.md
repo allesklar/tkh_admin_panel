@@ -4,13 +4,17 @@ This is a Rails engine with an admin panel layout, assets and basic functionalit
 
 Primarily developed for Ten Thousand Hours but we are happy to share if anybody finds it useful. It's primarily developed to work in sync with the tkh_cms gem suite but over time more and more effort will be made to make it work in isolation.
 
-Please note that this gem is still in its infancy. I'm just getting started. 
+Please note that this gem is still in its infancy. I'm just getting started.
 
 ## Installation
 
-This gem was created when Rails 3.2.6 was the latest release and there is a railties dependency of "~> 3.2". Add this line to your application's Gemfile:
+For use with Rails 3, add this line to your application's Gemfile:
 
-    gem 'tkh_admin_panel', '~> 0.0'
+    gem 'tkh_admin_panel', '< 0.9'
+
+For Rails 4 ...
+
+    gem 'tkh_admin_panel', '~> 0.9'
 
 And then execute:
 
@@ -19,9 +23,9 @@ And then execute:
 Install the admin_sidebar partial
 
 		$ rake tkh_admin_panel:setup
-		
+
 Run the migrations
-		
+
 		$ rake db:migrate
 
 Start or restart your server!
@@ -38,9 +42,9 @@ Update the gem:
 Update locale files.
 
 		$ rake tkh_admin_panel:update
-		
+
 Run new migrations if any
-		
+
 		$ rake db:migrate
 
 Start or restart your server!
