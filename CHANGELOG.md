@@ -2,6 +2,11 @@
 
 
 
+## 0.9.2
+
+* Admin sections can now use the jquery sortable library
+
+
 ## 0.9.1
 
 * Resolving gem dependencies
