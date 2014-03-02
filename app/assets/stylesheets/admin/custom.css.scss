@@ -130,12 +130,12 @@ margin: 0;
   }
 }
 
-#sortable {
+.draggable {
   list-style-type: none;
   margin: 2em 0 2em 4em;
   li {
     cursor: move;
-    margin: 1em 0;
+    margin: 0.5em 0;
   }
 }
 
