@@ -12,4 +12,3 @@
 //= require twitter/typeahead.min
 //= require ckeditor-jquery
 //= require admin/custom
-//= require pages
