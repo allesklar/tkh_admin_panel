@@ -2,6 +2,11 @@
 
 
 
+## 0.9.3
+
+* Debugged autocomplete typeahead code. Reorganized page js files.
+
+
 ## 0.9.2
 
 * Admin sections can now use the jquery sortable library
