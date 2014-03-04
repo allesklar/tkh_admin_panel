@@ -1,1 +1,15 @@
+/*
+  Override Bootstrap 3 font locations
+  There is/was a bug in Bootstrap with corrupted glyphicons fonts
+  Imported the fonts manually to the right folder
+*/
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url(font-path('glyphicons-halflings-regular.eot') + "?#iefix") format('embedded-opentype'),
+         url(font-path('glyphicons-halflings-regular.woff')) format('woff'),
+         url(font-path('glyphicons-halflings-regular.ttf'))  format('truetype'),
+         url(font-path('glyphicons-halflings-regular.svg') + "#glyphicons_halflingsregular") format('svg');
+}
+
 @import "bootstrap";

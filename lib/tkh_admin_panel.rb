@@ -12,6 +12,8 @@ module TkhAdminPanel
   class Engine < ::Rails::Engine
     initializer "TkhAdminPanel precompile hook", :group => :all do |app|
       app.config.assets.precompile += ['admin.js', 'admin.css', 'admin/pages.js']
+      # add app/assets/fonts to the asset path
+      app.config.assets.paths << Rails.root.join("app", "assets", "fonts")
     end
 
     # to extend the application_controller in the host app
