@@ -3,7 +3,7 @@
 
 
 
-## 0.9.4
+## 0.9.5
 
 * Added the glyphicon fonts. There was a problem with originally corrupted fonts in Bootstrap
 
