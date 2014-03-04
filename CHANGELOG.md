@@ -3,9 +3,9 @@
 
 
 
-## 0.9.6
+## 0.9.4 -> 0.9.7
 
-* Added the glyphicon fonts. There was a problem with originally corrupted fonts in Bootstrap
+* Some unsuccessful debugging of the Bootstrap glyphicon fonts issue
 
 
 ## 0.9.3
