@@ -2,6 +2,12 @@
 
 
 
+
+## 0.9.4
+
+* Added the glyphicon fonts. There was a problem with originally corrupted fonts in Bootstrap
+
+
 ## 0.9.3
 
 * Debugged autocomplete typeahead code. Reorganized page js files.
