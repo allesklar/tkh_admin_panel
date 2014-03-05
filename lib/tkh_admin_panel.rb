@@ -11,7 +11,7 @@ require 'jquery-ui-rails'
 module TkhAdminPanel
   class Engine < ::Rails::Engine
     initializer "TkhAdminPanel precompile hook", :group => :all do |app|
-      app.config.assets.precompile += ['admin.js', 'admin.css', 'admin/pages.js']
+      app.config.assets.precompile += ['admin.js', 'admin.css', 'admin/pages.js', 'admin/illustrations.js']
     end
 
     # to extend the application_controller in the host app

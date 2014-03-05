@@ -79,6 +79,8 @@
     <% # the twitter typeahead javascript library needs all typeahead form fields to be present in DOM. this is an ugly hack %>
     <% if controller.controller_name == 'pages' %>
       <%= javascript_include_tag 'admin/pages' %>
+    <% elsif controller.controller_name == 'illustrations' %>
+      <%= javascript_include_tag 'admin/illustrations' %>
     <% end %>
 
 	</body>
