@@ -2,6 +2,10 @@
 
 
 
+## 0.9.8
+
+* Added search for illustrations
+
 
 ## 0.9.4 -> 0.9.7
 
