@@ -2,6 +2,11 @@
 
 
 
+## 0.9.9
+
+* Added js files and functionality for menus associations autocomplete
+
+
 ## 0.9.8
 
 * Added search for illustrations
