@@ -2,6 +2,13 @@
 
 
 
+## 0.9.10
+
+* Fixed up and styled paginators
+* Added pagination locales for English and French
+* Fixed up CSS for form errors
+
+
 ## 0.9.9
 
 * Added js files and functionality for menus associations autocomplete
