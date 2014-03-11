@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency "railties", "> 4.0"
   gem.add_dependency "globalize"
   gem.add_dependency "bootstrap-sass"
-  gem.add_dependency "bootstrap-will_paginate"
+  gem.add_dependency "will_paginate"
   # twitter-typeahead-rails is for autocomplete fields in forms
   # versions > 0.10 must have fewer bugs but is not backward compatible
   # I'll upgrade when I figure out the new API
