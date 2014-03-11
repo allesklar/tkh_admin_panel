@@ -1,11 +1,11 @@
 fr:
   admin_panel: "Panneau d'administration"
   admin_panel_for: "Panneau d'administration pour "
-  
+
   activerecord:
     models:
       settings: 'options du site'
-      
+
     attributes:
       setting:
         site_name: 'nom du site'
@@ -30,3 +30,36 @@ fr:
     update:
       notice: 'Succes: les options du site ont été mises à jour.'
       warning: "Il y'a eu un problem et vos modifications n'ont pas été sauvegardées."
+
+  will_paginate:
+    previous_label: "&#8592; avant"
+    next_label: "prochain &#8594;"
+    page_gap: "&hellip;"
+
+    page_entries_info:
+      single_page:
+        zero: "pas de %{model}"
+        one: "montrer 1 %{model}"
+        other: "montrer les %{count} %{model}"
+      single_page_html:
+        zero: "pas de %{model}"
+        one: "montrer <b>1</b> %{model}"
+        other: "montrer <b>les&nbsp;%{count}</b> %{model}"
+
+      multi_page: "montrer %{model} %{from} - %{to} of %{count} au total"
+      multi_page_html: "montrer %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> of <b>%{count}</b> au total"
+
+    # models:
+    # entry:
+    # zero: entries
+    # one: entry
+    # few: entries
+    # other: entries
+
+    # line_item:
+    # page_entries_info:
+    # single_page:
+    # zero: "Your shopping cart is empty"
+    # one: "Displaying one item in your cart"
+    # other: "Displaying all %{count} items"
+    # multi_page: "Displaying items %{from} - %{to} of %{count} in total"

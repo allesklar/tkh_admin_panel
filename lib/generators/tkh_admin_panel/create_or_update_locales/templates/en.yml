@@ -1,11 +1,11 @@
 en:
   admin_panel: 'Admin Panel'
   admin_panel_for: "Admin Panel for "
-  
+
   activerecord:
     models:
       settings: 'site settings'
-    
+
     attributes:
       setting:
         site_name: 'site name'
@@ -17,7 +17,7 @@ en:
         enable_comments_in_blog: 'enable comments in blog'
         contact_email: 'contact email'
         company_name: 'company name'
-        
+
   settings:
     blog_enabled: 'blog enabled?'
     hint:
@@ -26,7 +26,40 @@ en:
       site_tagline: 'a small descriptive sentence'
       disable_blog: 'should be checked if you do NOT want a blog'
       blog_tagline:  'a small descriptive sentence'
-    
+
     update:
       notice: 'Site Settings were successfully updated.'
       warning: 'There was a problem saving your changes.'
+
+  will_paginate:
+    previous_label: "&#8592; Previous"
+    next_label: "Next &#8594;"
+    page_gap: "&hellip;"
+
+    page_entries_info:
+      single_page:
+        zero: "No %{model} found"
+        one: "Displaying 1 %{model}"
+        other: "Displaying all %{count} %{model}"
+      single_page_html:
+        zero: "No %{model} found"
+        one: "Displaying <b>1</b> %{model}"
+        other: "Displaying <b>all&nbsp;%{count}</b> %{model}"
+
+      multi_page: "Displaying %{model} %{from} - %{to} of %{count} in total"
+      multi_page_html: "Displaying %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> of <b>%{count}</b> in total"
+
+    # models:
+    # entry:
+    # zero: entries
+    # one: entry
+    # few: entries
+    # other: entries
+
+    # line_item:
+    # page_entries_info:
+    # single_page:
+    # zero: "Your shopping cart is empty"
+    # one: "Displaying one item in your cart"
+    # other: "Displaying all %{count} items"
+    # multi_page: "Displaying items %{from} - %{to} of %{count} in total"
