@@ -151,3 +151,13 @@ margin: 0;
   margin-bottom: 5em;
   text-align: center;
 }
+
+// boostrap 3 and simple_form don't play too well together yet
+.alert-error {
+  @extend .alert-danger;
+}
+.help-inline {
+  @extend .label;
+  @extend .label-danger;
+  margin: 1em;
+}
