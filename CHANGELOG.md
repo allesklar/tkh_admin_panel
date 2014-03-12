@@ -2,6 +2,11 @@
 
 
 
+## 0.9.11
+
+* Parent page title field autocompletes in the page form
+
+
 ## 0.9.10
 
 * Fixed up and styled paginators
