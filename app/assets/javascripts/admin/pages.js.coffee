@@ -21,3 +21,6 @@ jQuery ->
   $('#page_author_name').typeahead(
     name: 'page_author_name',
     local: $('#page_author_name').data('source') )
+  $('#page_parent_page_title').typeahead(
+    name: 'page_parent_page_title',
+    local: $('#page_parent_page_title').data('source') )
