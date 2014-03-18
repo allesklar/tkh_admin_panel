@@ -10,7 +10,7 @@ require 'jquery-ui-rails'
 
 module TkhAdminPanel
   class Engine < ::Rails::Engine
-    debugging. this is not working. moving directive to host app
+    # debugging. this is not working. moving directive to host app
     initializer "TkhAdminPanel precompile hook", :group => :all do |app|
       app.config.assets.precompile += ['admin.js', 'admin.css', 'admin/pages.js', 'admin/illustrations.js', 'admin/menus.js']
     end
