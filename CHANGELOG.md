@@ -2,6 +2,11 @@
 
 
 
+## 0.9.12
+
+* Debugged the list of precompiled assets. Two js files were not included because of a typo.
+
+
 ## 0.9.11
 
 * Parent page title field autocompletes in the page form
