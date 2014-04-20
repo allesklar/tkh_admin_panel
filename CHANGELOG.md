@@ -2,6 +2,11 @@
 
 
 
+## 0.9.13-17
+
+* Debugged the precompiling of assets. It turns out it was a silly problem with the @include hyphens which does not work anymore.
+
+
 ## 0.9.12
 
 * Debugged the list of precompiled assets. Two js files were not included because of a typo.
