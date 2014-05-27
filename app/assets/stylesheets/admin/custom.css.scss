@@ -152,6 +152,8 @@ margin: 0;
   text-align: center;
 }
 
+.inline-form { display: inline; }
+
 // boostrap 3 and simple_form don't play too well together yet
 .alert-error {
   @extend .alert-danger;
