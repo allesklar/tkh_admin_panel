@@ -77,12 +77,15 @@
     <%= javascript_include_tag "admin" %>
 
     <% # the twitter typeahead javascript library needs all typeahead form fields to be present in DOM. this is an ugly hack %>
+    <% # FIXME - refactor this mess %>
     <% if controller.controller_name == 'pages' %>
       <%= javascript_include_tag 'admin/pages' %>
     <% elsif controller.controller_name == 'illustrations' %>
       <%= javascript_include_tag 'admin/illustrations' %>
     <% elsif controller.controller_name == 'menus' %>
       <%= javascript_include_tag 'admin/menus' %>
+    <% elsif controller.controller_name == 'courses' %>
+      <%= javascript_include_tag 'admin/courses' %>
     <% end %>
 
 	</body>
