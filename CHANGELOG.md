@@ -2,6 +2,14 @@
 
 
 
+## 0.9.19
+
+* Added the javascript for sanskrit course lessons autocomplete.
+* The flash messages are now rendered from the partial in the tkh_toolbox gem.
+* Added an inline-form class in admin custom.css.
+* Blog link in admin panel doesn't show if blog is disabled in site settings.
+
+
 ## 0.9.18
 
 * Upgraded Rails and simple_form dependencies.
