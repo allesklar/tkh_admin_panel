@@ -2,6 +2,11 @@
 
 
 
+## 0.9.20
+
+* Upgraded call to jquery ui to fit latest versions of gems.
+
+
 ## 0.9.19
 
 * Added the javascript for sanskrit course lessons autocomplete.
