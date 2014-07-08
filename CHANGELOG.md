@@ -2,6 +2,11 @@
 
 
 
+## 0.9.21
+
+* Minor formatting design to comments in moderation views.
+
+
 ## 0.9.20
 
 * Upgraded call to jquery ui to fit latest versions of gems.
