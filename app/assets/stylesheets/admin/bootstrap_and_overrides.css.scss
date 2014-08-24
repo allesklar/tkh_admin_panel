@@ -1,3 +1,13 @@
+$purple: #772953;
+$orange: #DD4814;
+$component-active-bg: $purple;
+
+// $navbar-height: 45px;
+$navbar-inverse-bg: $purple;
+$navbar-inverse-color: #fff;
+$navbar-inverse-link-color: darken(#fff, 15%);
+$navbar-inverse-link-hover-bg: darken($navbar-inverse-bg, 5%);
+
 $font-size-base: 16px;
 
 @font-face {
