@@ -3,7 +3,7 @@ body {
   // @include hyphens;
 }
 
-input, textarea {
+textarea {
   width: 450px;
 }
 
@@ -19,17 +19,21 @@ form {
   margin: 2em .5em;
 }
 
+label {
+  display: block;
+}
+
 input[type="button"], input[type="submit"] {
   width: auto;
 }
 // input, textarea { width: auto; }
 // // .textarea-test { width: auto; height: auto; }
 
-// .form-group { margin: 0 0 2em; }
-// .form-control {
-//   border: none;
-//   height: auto;
-// }
+.form-group { margin: 0 0 3rem; }
+.form-control {
+  width: auto;
+  height: auto;
+}
 
 .help-block { color: #999; }
 
