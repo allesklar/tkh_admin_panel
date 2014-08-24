@@ -2,11 +2,10 @@
 
 <%= render 'tab_admin_menu' %>
 
-<%= simple_form_for @setting, :html => { class: 'form-horizontal' } do |f| %>
+<%= simple_form_for @setting do |f| %>
 	<%= f.error_notification %>
-	
-  <div class="form-inputs">
-		<%= f.input :company_name %><br />
+
+		<%= f.input :company_name %>
 		<%= f.input :contact_email, hint: t('settings.hint.contact_email') %>
 		<%= f.input :site_name, hint: t('settings.hint.site_name') %>
 		<%= f.input :site_tagline, hint: t('settings.hint.site_tagline') %>
@@ -15,12 +14,8 @@
 		<%= f.input :blog_name %>
 		<%= f.input :blog_tagline, hint: t('settings.hint.blog_tagline') %>
 		<%= f.input :enable_comments_in_blog, as: :boolean, inline_label: true, label: false  %>
-	</div>
-	
-  <div class="form-actions">
-    <%= f.button :submit, :class => 'btn btn-primary' %>
-  </div>
 
+    <%= f.button :submit, :class => 'btn btn-primary' %>
 <% end %>
 
 <%= render 'shared/admin_sidebar' %>
