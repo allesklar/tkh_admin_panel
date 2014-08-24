@@ -2,6 +2,14 @@
 
 
 
+## 0.9.22
+
+* Updated bootstrap related gem dependencies.
+* Solved the long time glyphicon font issue by disabling the united bootswatch theme. I'll make my own design.
+* Debugged javascript of login navbar module. Disabled bootstrap-rockets.
+* Started to work on a new clear, simple design
+
+
 ## 0.9.21
 
 * Minor formatting design to comments in moderation views.
