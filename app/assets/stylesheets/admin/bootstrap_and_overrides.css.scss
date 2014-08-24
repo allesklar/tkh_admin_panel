@@ -1,2 +1,60 @@
+$font-size-base: 16px;
+
+@font-face {
+    font-family: 'opensanslight';
+    src: font-url('opensans-light.eot');
+    src: font-url('opensans-light.eot') format('embedded-opentype'),
+         font-url('opensans-light.woff') format('woff'),
+         font-url('opensans-light.ttf') format('truetype'),
+         font-url('opensans-light.svg#opensanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'opensanslightitalic';
+    src: font-url('opensans-lightitalic.eot');
+    src: font-url('opensans-lightitalic.eot') format('embedded-opentype'),
+         font-url('opensans-lightitalic.woff') format('woff'),
+         font-url('opensans-lightitalic.ttf') format('truetype'),
+         font-url('opensans-lightitalic.svg#opensanslightitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'opensanssemiregular';
+    src: font-url('opensans-regular.eot');
+    src: font-url('opensans-regular.eot') format('embedded-opentype'),
+         font-url('opensans-regular.woff') format('woff'),
+         font-url('opensans-regular.ttf') format('truetype'),
+         font-url('opensans-regular.svg#opensansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'opensanssemibold';
+    src: font-url('opensans-semibold.eot');
+    src: font-url('opensans-semibold.eot') format('embedded-opentype'),
+         font-url('opensans-semibold.woff') format('woff'),
+         font-url('opensans-semibold.ttf') format('truetype'),
+         font-url('opensans-semibold.svg#opensanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'opensanscondlight';
+    src: font-url('opensans-condlight.eot');
+    src: font-url('opensans-condlight.eot') format('embedded-opentype'),
+         font-url('opensans-condlight.woff') format('woff'),
+         font-url('opensans-condlight.ttf') format('truetype'),
+         font-url('opensans-condlight.svg#opensanscondlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$font-family-sans-serif: opensansregular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-base: $font-family-sans-serif;
+$headings-font-family: opensanscondlight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$headings-font-weight: normal;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
