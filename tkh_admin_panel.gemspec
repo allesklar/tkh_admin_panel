@@ -15,15 +15,19 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = TkhAdminPanel::VERSION
 
-  gem.add_dependency "railties", "~> 4.1.0"
+  gem.add_dependency "railties"
   gem.add_dependency "globalize"
   gem.add_dependency "bootstrap-sass"
+  # following these instructions: https://github.com/twbs/bootstrap-sass
+  gem.add_dependency 'sass-rails'
+  gem.add_dependency 'autoprefixer-rails' # It is also recommended to use Autoprefixer with Bootstrap to add browser vendor prefixes automatically.
+  gem.add_dependency "bootstrap-will_paginate"
   gem.add_dependency "will_paginate"
   # twitter-typeahead-rails is for autocomplete fields in forms
   # versions > 0.10 must have fewer bugs but is not backward compatible
   # I'll upgrade when I figure out the new API
   gem.add_dependency 'twitter-typeahead-rails', '~> 0.9.3'
-  gem.add_dependency "simple_form", '~> 3.1.0.rc1'
+  gem.add_dependency "simple_form"
   gem.add_dependency "tkh_authentication", '~> 0.9'
   gem.add_dependency "jquery-ui-rails"
 end
