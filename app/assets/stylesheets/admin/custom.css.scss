@@ -18,6 +18,10 @@ h2 {
 form {
   margin: 2em .5em;
 }
+
+input[type="button"], input[type="submit"] {
+  width: auto;
+}
 // input, textarea { width: auto; }
 // // .textarea-test { width: auto; height: auto; }
 
