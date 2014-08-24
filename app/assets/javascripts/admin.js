@@ -8,7 +8,6 @@
 //= require jquery-ui
 //= require jquery_ujs
 //= require admin/drag-and-sort
-//= require bootstrap-sprockets
 //= require bootstrap
 //= require twitter/typeahead.min
 //= require ckeditor-jquery
