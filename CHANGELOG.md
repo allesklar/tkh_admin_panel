@@ -2,6 +2,12 @@
 
 
 
+## 0.9.23
+
+* Polishing form design
+* Fixed up markup of settings edit form
+
+
 ## 0.9.22
 
 * Updated bootstrap related gem dependencies.
