@@ -2,6 +2,12 @@
 
 
 
+## 0.9.24
+
+* Reduced size of table td text in index views.
+* Colorized negative and positive glyphicons in index views.
+
+
 ## 0.9.23
 
 * Polishing form design
