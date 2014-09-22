@@ -2,6 +2,11 @@
 
 
 
+## 0.9.25
+
+* Added tkh logo as temporary app logo in admin panel.
+
+
 ## 0.9.24
 
 * Reduced size of table td text in index views.
