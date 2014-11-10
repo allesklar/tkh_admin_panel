@@ -11,6 +11,7 @@ class CreateSettings < ActiveRecord::Migration
       t.boolean :enable_comments_in_blog, default: true
       t.timestamps
     end
+    Setting.create_translation_table! :site_name => :string, :site_tagline => :string, :blog_name => :string, :blog_tagline => :string
   end
 
   def self.down
