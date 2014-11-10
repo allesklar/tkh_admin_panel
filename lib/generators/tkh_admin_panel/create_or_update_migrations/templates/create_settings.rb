@@ -1,5 +1,5 @@
 class CreateSettings < ActiveRecord::Migration
-  
+
   def self.up
     create_table :settings do |t|
       t.string :site_name
@@ -12,19 +12,8 @@ class CreateSettings < ActiveRecord::Migration
       t.timestamps
     end
     Setting.create_translation_table! :site_name => :string, :site_tagline => :string, :blog_name => :string, :blog_tagline => :string
-    # normally it's not a good idea to populate a table in the migration but I think this is an exception
-    Setting.create([
-      { site_name: 'Name of the web site',
-        site_tagline: 'A short descriptive sentence',
-        enable_comments_in_pages: false,
-        disable_blog: false,
-        blog_name: 'Name of the blog',
-        blog_tagline: "A short descriptive sentence",
-        enable_comments_in_blog: true
-      }
-    ])
   end
-  
+
   def self.down
     drop_table :settings
     Setting.drop_translation_table!
