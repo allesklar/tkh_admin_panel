@@ -2,6 +2,11 @@
 
 
 
+## 0.9.26
+
+* Removed the seeding from the create_settings migration.
+
+
 ## 0.9.25
 
 * Added tkh logo as temporary app logo in admin panel.
