@@ -1,7 +1,7 @@
 de:
   admin_panel: 'Administratorschaltfläche'
   admin_panel_for: "Administratorschaltfläche für"
-  
+
   activerecord:
     models:
       settings: 'Seiten Einstellungen'

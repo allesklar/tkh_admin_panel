@@ -49,17 +49,3 @@ fr:
       multi_page: "montrer %{model} %{from} - %{to} of %{count} au total"
       multi_page_html: "montrer %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> of <b>%{count}</b> au total"
 
-    # models:
-    # entry:
-    # zero: entries
-    # one: entry
-    # few: entries
-    # other: entries
-
-    # line_item:
-    # page_entries_info:
-    # single_page:
-    # zero: "Your shopping cart is empty"
-    # one: "Displaying one item in your cart"
-    # other: "Displaying all %{count} items"
-    # multi_page: "Displaying items %{from} - %{to} of %{count} in total"

@@ -1,11 +1,12 @@
 es:
   admin_panel: "El panel de administración"
   admin_panel_with_site_name: "El panel de administración: "
-  
+  site_administration: 'site administration'
+
   activerecord:
     models:
       settings: 'configuración del sitio'
-    
+
     attributes:
       setting:
         site_name: 'nombre del sitio'
@@ -17,7 +18,7 @@ es:
         enable_comments_in_blog: 'habilitar los comentarios en el blog'
         contact_email: 'correo electrónico de contacto'
         company_name: 'nombre de compañía'
-        
+
   settings:
     blog_enabled: '¿blogs habilitado?'
     hint:
@@ -26,7 +27,7 @@ es:
       site_tagline: 'a small descriptive sentence'
       disable_blog: 'should be checked if you do NOT want a blog'
       blog_tagline:  'a small descriptive sentence'
-    
+
     update:
       notice: 'Configuración del sitio se han actualizado con éxito.'
       warning: 'Hubo un problema al guardar los cambios.'
