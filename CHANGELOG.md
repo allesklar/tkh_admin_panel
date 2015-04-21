@@ -2,6 +2,12 @@
 
 
 
+## 0.9.27
+
+* Fixed deprecation warnings by changing extensions of stylesheets.
+* Cleaned up locale files.
+
+
 ## 0.9.26
 
 * Removed the seeding from the create_settings migration.
