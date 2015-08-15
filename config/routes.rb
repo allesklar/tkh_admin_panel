@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  scope "(:locale)" do
+  # The route_translator branch needs to be compatible with its
+  # namesake gem
+  localized do
     resources :settings
   end
 end

@@ -1,5 +1,5 @@
 require 'rails/generators/migration'
- 
+
 module TkhAdminPanel
   module Generators
     class CreateOrUpdateMigrationsGenerator < ::Rails::Generators::Base
@@ -14,13 +14,13 @@ module TkhAdminPanel
         end
         @prev_migration_nr.to_s
       end
- 
+
       def copy_migrations
         puts 'creating or updating setting migrations'
         migration_template "create_settings.rb", "db/migrate/create_settings.rb"
         migration_template "add_contact_email_to_settings.rb", "db/migrate/add_contact_email_to_settings.rb"
       end
- 
+
     end
   end
 end
