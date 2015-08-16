@@ -1,8 +1,8 @@
 CKEDITOR.editorConfig = (config) ->
-  config.language = tkh_locale
+  config.language = 'en'
   config.uiColor = "#AADC6E"
-  config.width = '650'
-  config.height = '450'
+  config.width = '750'
+  config.height = '800'
   config.forcePasteAsPlainText = true
   config.allowedContent = true
   # config.extraAllowedContent = true
