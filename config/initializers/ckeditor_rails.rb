@@ -9,7 +9,7 @@ Ckeditor::Rails.configure do |config|
   config.assets_plugins = %w[image link liststyle table tabletools]
 
   # default is nil for all skins, or set as %w[moon]
-  config.assets_skins = nil
+  config.assets_skins = %w[moon]
 end
 
 ###################### from old JS config which was working great
