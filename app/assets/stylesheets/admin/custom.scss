@@ -56,7 +56,14 @@ input[type="button"], input[type="submit"] {
 
 .navbar-login-info { padding-right: 1.5em; }
 
-#admin-menu-tab { margin-bottom: 3em; }
+.nav li.active a {
+  background-color: $purple;
+  color: #fff;
+  a {
+    color: #fff;
+    font-family: opensanssemibold, $font-family-sans-serif;
+  }
+}
 
 .list-group {
   h3 {
@@ -132,7 +139,7 @@ margin: 0;
   display: block;
   padding: 0.2em;
   text-align: center;
-  margin: 0 0 2.5em;
+  margin: 1.5rem 0;
   a { padding: 0 0.15em; }
   .current { font-style: normal; }
   .previous_page {
@@ -192,3 +199,12 @@ margin: 0;
   font-family: opensanslight, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
+
+
+#admin-menu-tab {
+  margin-bottom: 3em;
+}
+
+.nav-tabs > li > a {
+    border-radius: 12px 12px 0 0;
+  }
