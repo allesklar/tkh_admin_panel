@@ -16,7 +16,9 @@ module TkhAdminPanel
   class Engine < ::Rails::Engine
     # debugging. this is not working. moving directive to host app
     initializer "TkhAdminPanel precompile hook", :group => :all do |app|
-      app.config.assets.precompile += ['admin.js', 'admin.css', 'admin/pages.js', 'admin/illustrations.js', 'admin/menus.js', 'admin/courses.js', 'admin/ckeditor/config.js']
+      # app.config.assets.precompile += ['admin.js', 'admin.css', 'admin/pages.js', 'admin/illustrations.js', 'admin/menus.js', 'admin/courses.js', 'admin/ckeditor/config.js']
+      # uncompile pages.js. debugging
+      app.config.assets.precompile += ['admin.js', 'admin.css', 'admin/illustrations.js', 'admin/menus.js', 'admin/courses.js', 'admin/ckeditor/config.js']
     end
 
     # to extend the application_controller in the host app
