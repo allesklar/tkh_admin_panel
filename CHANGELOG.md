@@ -2,6 +2,14 @@
 
 
 
+## 0.10
+
+* Routes work with normal Rails apps as well as those with the route_translator gem
+* Removed the tkh_authentication dependency
+* Improved styling of admin panel
+* The ckeditor gem for inline HTML editing has been moved from the tkh_content gem to this one.
+
+
 ## 0.9.27
 
 * Fixed deprecation warnings by changing extensions of stylesheets.
