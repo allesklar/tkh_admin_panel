@@ -15,6 +15,11 @@
 		<%= f.input :blog_tagline, hint: t('settings.hint.blog_tagline') %>
 		<%= f.input :enable_comments_in_blog, as: :boolean, inline_label: true, label: false  %>
 
+
+		<%= f.input :twitter_handle, hint: "the part after @" %>
+		<%= f.input :facebook_username, hint: "just the username or the numeric id" %>
+		<%= f.input :google_plus_username, hint: "the part after the '+' sign" %>
+
     <%= f.button :submit, :class => 'btn btn-primary' %>
 <% end %>
 
