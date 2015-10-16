@@ -1,0 +1,57 @@
+/* tables */
+// table.tablesorter {
+//   font-family:arial;
+//   background-color: #CDCDCD;
+//   margin:10px 0pt 15px;
+//   font-size: 8pt;
+//   width: 100%;
+//   text-align: left;
+// }
+// table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+//   background-color: #e6EEEE;
+//   border: 1px solid #FFF;
+//   font-size: 8pt;
+//   padding: 4px;
+// }
+// table.tablesorter thead th {
+//   background-color: red;
+// }
+th.tablesorter-header {
+  background-color: lighten($purple, 60%);
+  background-repeat: no-repeat;
+  background-position: center right;
+  cursor: pointer;
+  font-family: opensanscondlight, $font-family-sans-serif;
+  font-size: 2.25rem;
+  padding-right: 17px !important;
+}
+th.tablesorter-headerUnSorted {
+  background-image: image-url('tablesorter/bg.gif');
+}
+// table.tablesorter tbody td {
+//   color: #3D3D3D;
+//   padding: 4px;
+//   background-color: #FFF;
+//   vertical-align: top;
+// }
+// table.tablesorter tbody tr.odd td {
+//   background-color:#F0F0F6;
+// }
+
+// Due to legacy issue, the class names and image filenames are counterintuitive in
+// these two blocks
+th.tablesorter-headerDesc {
+  background-image: image-url('tablesorter/asc.gif');
+}
+th.tablesorter-headerAsc {
+  background-image: image-url('tablesorter/desc.gif');
+}
+
+
+// table.tablesorter thead th .headerSortDown, table.tablesorter thead th .headerSortUp {
+// background-color: #8dbdd8;
+// }
+
+// table.tablesorter tbody tr.removed, table.tablesorter tr.removed td {
+//   background-color: red;
+// }

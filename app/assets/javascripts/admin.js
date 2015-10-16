@@ -11,4 +11,5 @@
 //= require bootstrap
 //= require twitter/typeahead.min
 //= require ckeditor-jquery
+//= require admin/tablesorter
 //= require admin/custom

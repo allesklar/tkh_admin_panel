@@ -5,4 +5,4 @@ jQuery ->
 
   $(".ckeditor").ckeditor()
 
-
+  $("#sortable-table").tablesorter()
