@@ -80,5 +80,8 @@
       <%= javascript_include_tag 'admin/courses' %>
     <% end %>
 
+    <% # This is first used by La Source website but can be used by any site to load extra javascript files. %>
+    <%= yield :extra_admin_javascript %>
+
 	</body>
 </html>
