@@ -4,10 +4,12 @@ CKEDITOR.editorConfig = (config) ->
   config.width = '750'
   config.height = '800'
   config.forcePasteAsPlainText = true
+  # preserve class names in source code
   config.allowedContent = true
-  # config.extraAllowedContent = true
-  config.htmlEncodeOutput = false;
-  config.entities = false;
+  # this line allows bootstrap glyphicon span elements
+  CKEDITOR.dtd.$removeEmpty['span'] = false;
+  config.htmlEncodeOutput = false
+  config.entities = false
 
   config.toolbar_Pure = [
     { name: 'styles',      items: [ 'Format' ] },
