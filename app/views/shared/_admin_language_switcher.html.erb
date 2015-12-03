@@ -1,0 +1,11 @@
+<% if I18n.available_locales.size > 1 %>
+  <ul class="admin-language-switcher">
+    <% I18n.available_locales.each do |loc| %>
+      <% if loc == I18n.locale %>
+        <li class='default'><span class='glyphicon glyphicon-ok'></span> <%= t 'locale_name' %></li>
+      <% else %>
+        <li class='other'><%= link_to t('locale_name', locale: loc) , locale: loc.to_s %></li>
+      <% end %>
+    <% end %>
+  </ul>
+<% end %>

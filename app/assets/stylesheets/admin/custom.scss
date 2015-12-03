@@ -217,3 +217,14 @@ margin: 0;
 .nav-tabs > li > a {
     border-radius: 12px 12px 0 0;
   }
+
+ul.admin-language-switcher {
+  border: 1px solid lighten($gray-light, 35%);
+  border-radius: 10px;
+  list-style-type: none;
+  padding: 2rem;
+  margin: 0 0 3rem;
+  li.default {
+    @extend strong;
+  }
+}

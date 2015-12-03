@@ -1,11 +1,14 @@
 it:
+
+  locale_name: "Italiano"
+
   admin_panel: 'Admin Panel'
   admin_panel_for: "Admin Panel for "
-  
+
   activerecord:
     models:
       settings: 'site settings'
-    
+
     attributes:
       setting:
         site_name: 'site name'
@@ -17,7 +20,7 @@ it:
         enable_comments_in_blog: 'enable comments in blog'
         contact_email: 'contact email'
         company_name: 'company name'
-        
+
   settings:
     blog_enabled: 'blog enabled?'
     hint:
@@ -26,7 +29,7 @@ it:
       site_tagline: 'a small descriptive sentence'
       disable_blog: 'should be checked if you do NOT want a blog'
       blog_tagline:  'a small descriptive sentence'
-    
+
     update:
       notice: 'Site Settings were successfully updated.'
       warning: 'There was a problem saving your changes.'

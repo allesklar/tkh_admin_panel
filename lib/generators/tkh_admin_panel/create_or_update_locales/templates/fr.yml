@@ -1,4 +1,7 @@
 fr:
+
+  locale_name: "Français"
+
   admin_panel: "Panneau d'administration"
   admin_panel_for: "Panneau d'administration pour "
 
