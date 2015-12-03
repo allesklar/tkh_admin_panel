@@ -228,3 +228,10 @@ ul.admin-language-switcher {
     @extend strong;
   }
 }
+
+.role-explanation {
+  // in the member edit form
+  color: lighten($gray-light, 15%);
+  font-family: opensanslightitalic, sans-serif;
+  padding-left: 2rem;
+}
