@@ -150,6 +150,15 @@ margin: 0;
   }
 }
 
+.label {
+  border-radius: 6px;
+  font-family: opensanslight sans-serif;
+  font-size: 120%;
+  font-weight: normal;
+  line-height: 24px;
+  padding: 2px 7px;
+}
+
 .thumbnail-gallery {
   // Where we assign random pics to specific records
   li {
