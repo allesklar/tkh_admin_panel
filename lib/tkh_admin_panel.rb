@@ -8,7 +8,6 @@ require 'will_paginate'
 require 'twitter-typeahead-rails'
 require 'simple_form'
 require 'tkh_admin_panel/tkh_admin_panel_action_controller_extension'
-# require 'tkh_authentication'
 require 'jquery-ui-rails'
 require 'ckeditor_rails'
 

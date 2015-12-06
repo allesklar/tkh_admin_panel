@@ -235,3 +235,14 @@ ul.admin-language-switcher {
   font-family: opensanslightitalic, sans-serif;
   padding-left: 2rem;
 }
+
+// used to manage nested attribute fields in a form
+.add_fields {
+  @extend .btn;
+  @extend .btn-success;
+}
+.remove_fields {
+  @extend .btn;
+  @extend .btn-xs;
+  @extend .btn-danger;
+}
