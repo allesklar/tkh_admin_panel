@@ -14,7 +14,7 @@ For use with Rails 3, add this line to your application's Gemfile:
 
 For Rails 4 ...
 
-    gem 'tkh_admin_panel', '~> 0.9'
+    gem 'tkh_admin_panel', '~> 0.10'
 
 And then execute:
 
@@ -22,7 +22,7 @@ And then execute:
 
 Install the admin_sidebar partial
 
-		$ rake tkh_admin_panel:setup
+		$ rake tkh_admin_panel:install
 
 Run the migrations
 
