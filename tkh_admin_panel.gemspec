@@ -29,6 +29,6 @@ Gem::Specification.new do |gem|
   # I'll upgrade when I figure out the new API
   gem.add_dependency 'twitter-typeahead-rails', '~> 0.9.3'
   gem.add_dependency "simple_form"
-  # gem.add_dependency "tkh_authentication", '~> 0.9'
+  # gem.add_dependency "tkh_access_control", '~> 0.13'
   gem.add_dependency "jquery-ui-rails"
 end

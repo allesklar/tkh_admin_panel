@@ -6,6 +6,12 @@ Primarily developed for Ten Thousand Hours but we are happy to share if anybody 
 
 Please note that this gem is still in its infancy. I'm just getting started.
 
+
+## Pre-requisite
+
+You need an authentication system such as the "tkh_access_control" gem but, for compatibility, you just need to have an application wide "current_user" helper method
+
+
 ## Installation
 
 For use with Rails 3, add this line to your application's Gemfile:
@@ -14,7 +20,7 @@ For use with Rails 3, add this line to your application's Gemfile:
 
 For Rails 4 ...
 
-    gem 'tkh_admin_panel', '~> 0.10'
+    gem 'tkh_admin_panel', '~> 0.13'
 
 And then execute:
 
@@ -50,11 +56,6 @@ Run new migrations if any
 Start or restart your server!
 
 		$ rails s
-
-
-## Pre-requisite
-
-You need an authentication system with the current_user helper method
 
 
 ## Usage
