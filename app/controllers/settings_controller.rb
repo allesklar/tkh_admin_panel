@@ -1,7 +1,7 @@
 class SettingsController < ApplicationController
 
   before_filter :authenticate
-  before_action -> { require_permission 'administer_site'}
+  before_action -> { require_permission 'write_settings'}
 
   def index
     redirect_to setting_path(Setting.first)

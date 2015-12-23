@@ -20,7 +20,7 @@ For use with Rails 3, add this line to your application's Gemfile:
 
 For Rails 4 ...
 
-    gem 'tkh_admin_panel', '~> 0.13'
+    gem 'tkh_admin_panel', '~> 1.0.beta1'
 
 And then execute:
 
