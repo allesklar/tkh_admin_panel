@@ -20,6 +20,7 @@ module TkhAdminPanel
         migration_template "create_settings.rb", "db/migrate/create_settings.rb"
         migration_template "add_contact_email_to_settings.rb", "db/migrate/add_contact_email_to_settings.rb"
         migration_template "add_social_sites_to_settings.rb", "db/migrate/add_social_sites_to_settings.rb"
+        migration_template "add_instagram_to_settings.rb", "db/migrate/add_instagram_to_settings.rb"
       end
 
     end

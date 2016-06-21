@@ -14,7 +14,8 @@
 	<strong><%= t('question_mark_inverted') + t('activerecord.attributes.setting.enable_comments_in_blog') + t('question_mark') %></strong> <%= @setting.enable_comments_in_blog? ? "<span class=\"label label-success\">✓</span>".html_safe : "<span class=\"label label-important\">X</span>".html_safe %><br />
   <strong>Twitter:</strong> @<%= @setting.twitter_handle %><br />
   <strong>Facebook:</strong> <%= @setting.facebook_username %><br />
-  <strong>Google plus:</strong> +<%= @setting.google_plus_username %>
+  <strong>Google plus:</strong> +<%= @setting.google_plus_username %><br />
+  <strong>Instagram:</strong> <%= @setting.instagram_username %>
 </p>
 
 <%= link_to t('edit'), edit_setting_path(@setting), class: 'btn btn-primary' %>

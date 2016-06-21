@@ -30,6 +30,6 @@ class SettingsController < ApplicationController
 
   # Never trust parameters from the scary internet, only allow the white list through.
   def setting_params
-    params.require(:setting).permit( :company_name, :contact_email, :site_name, :site_tagline, :blog_name, :blog_tagline, :disable_blog, :enable_comments_in_pages, :enable_comments_in_blog, :twitter_handle, :facebook_username, :google_plus_username )
+    params.require(:setting).permit :company_name, :contact_email, :site_name, :site_tagline, :blog_name, :blog_tagline, :disable_blog, :enable_comments_in_pages, :enable_comments_in_blog, :twitter_handle, :facebook_username, :google_plus_username, :instagram_username
   end
 end
