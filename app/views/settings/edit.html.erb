@@ -5,21 +5,26 @@
 <%= simple_form_for @setting do |f| %>
 	<%= f.error_notification %>
 
+<h2>General</h2>
 		<%= f.input :company_name %>
 		<%= f.input :contact_email, hint: t('settings.hint.contact_email') %>
 		<%= f.input :site_name, hint: t('settings.hint.site_name') %>
 		<%= f.input :site_tagline, hint: t('settings.hint.site_tagline') %>
 		<%= f.input :enable_comments_in_pages, as: :boolean, inline_label: true, label: false  %>
+
+<h2>Blog</h2>
 		<%= f.input :disable_blog, as: :boolean, inline_label: true, label: false, hint: t('settings.hint.disable_blog') %>
 		<%= f.input :blog_name %>
 		<%= f.input :blog_tagline, hint: t('settings.hint.blog_tagline') %>
 		<%= f.input :enable_comments_in_blog, as: :boolean, inline_label: true, label: false  %>
 
-
+<h2>Social</h2>
 		<%= f.input :twitter_handle, hint: "the part after @" %>
 		<%= f.input :facebook_username, hint: "just the username or the numeric id" %>
 		<%= f.input :google_plus_username, hint: "the part after the '+' sign" %>
 		<%= f.input :instagram_username %>
+		<%= f.input :youtube_username %>
+		<%= f.input :linkedin_username %>
 
     <%= f.button :submit, :class => 'btn btn-primary' %>
 <% end %>
