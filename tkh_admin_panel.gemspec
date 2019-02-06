@@ -3,7 +3,7 @@ require File.expand_path('../lib/tkh_admin_panel/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Swami Atma"]
-  gem.email         = ["swami@TenThousandHours.eu"]
+  gem.email         = ["swamiatma@yoga108.org"]
   gem.description   = %q{Admin panel layout engine}
   gem.summary       = %q{A Rails admin panel engine with layout, assets, and basic functionality}
   gem.homepage      = "https://github.com/allesklar/tkh_admin_panel"
@@ -27,7 +27,7 @@ Gem::Specification.new do |gem|
   # twitter-typeahead-rails is for autocomplete fields in forms
   # versions > 0.10 must have fewer bugs but is not backward compatible
   # I'll upgrade when I figure out the new API
-  gem.add_dependency 'twitter-typeahead-rails', '~> 0.9.3'
+  gem.add_dependency 'twitter-typeahead-rails'
   gem.add_dependency "simple_form"
   # gem.add_dependency "tkh_access_control", '~> 1.0.beta1'
   gem.add_dependency "jquery-ui-rails"
