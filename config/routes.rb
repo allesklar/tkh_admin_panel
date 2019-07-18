@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  # OPTIMIZE remove this old route_translator condition
   if Gem::Specification::find_all_by_name('route_translator').any?
 
     localized do
