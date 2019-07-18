@@ -9,13 +9,12 @@ require 'twitter-typeahead-rails'
 require 'simple_form'
 require 'tkh_admin_panel/tkh_admin_panel_action_controller_extension'
 require 'jquery-ui-rails'
-require 'ckeditor_rails'
 
 module TkhAdminPanel
   class Engine < ::Rails::Engine
     # debugging. this is not working. moving directive to host app
     initializer "TkhAdminPanel precompile hook", :group => :all do |app|
-      app.config.assets.precompile += ['admin.js', 'admin.css', 'admin/pages.js', 'admin/illustrations.js', 'admin/menus.js', 'admin/courses.js', 'ckeditor/config.js']
+      app.config.assets.precompile += ['admin.js', 'admin.css', 'admin/pages.js', 'admin/illustrations.js', 'admin/menus.js', 'admin/courses.js']
     end
 
     # to extend the application_controller in the host app

@@ -20,8 +20,6 @@ Gem::Specification.new do |gem|
   gem.add_dependency "bootstrap-sass"
   # following these instructions: https://github.com/twbs/bootstrap-sass
   gem.add_dependency 'sass-rails'
-  gem.add_dependency 'ckeditor_rails'
-  # gem.add_dependency 'autoprefixer-rails' # It is also recommended to use Autoprefixer with Bootstrap to add browser vendor prefixes automatically.
   gem.add_dependency "bootstrap-will_paginate"
   gem.add_dependency "will_paginate"
   
