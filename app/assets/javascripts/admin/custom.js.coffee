@@ -3,6 +3,5 @@ jQuery ->
   $(".tooltip").tooltip()
   $("a[rel=tooltip]").tooltip()
 
-  $(".ckeditor").ckeditor()
 
   $("#sortable-table").tablesorter()
