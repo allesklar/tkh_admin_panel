@@ -15,6 +15,7 @@
     <%= csrf_meta_tag %>
 		<% # This line ensures javascript code can access the current locale from Rails %>
 		<script type="text/javascript">var tkh_locale = '<%= I18n.locale.to_s %>';</script>
+    <%= javascript_include_tag "admin" %>
 	</head>
 
 	<body>
@@ -64,7 +65,6 @@
 
     </div> <!-- /container -->
 
-    <%= javascript_include_tag "admin" %>
 
     <% # the twitter typeahead javascript library needs all typeahead form fields to be present in DOM. this is an ugly hack %>
     <% # FIXME - refactor this mess %>

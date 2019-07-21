@@ -10,5 +10,6 @@
 //= require admin/drag-and-sort
 //= require bootstrap
 //= require twitter/typeahead.min
+//= require tinymce-jquery
 //= require admin/tablesorter
 //= require admin/custom

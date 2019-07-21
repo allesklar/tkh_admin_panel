@@ -3,5 +3,4 @@ jQuery ->
   $(".tooltip").tooltip()
   $("a[rel=tooltip]").tooltip()
 
-
   $("#sortable-table").tablesorter()
