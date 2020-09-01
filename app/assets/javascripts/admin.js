@@ -12,4 +12,5 @@
 //= require twitter/typeahead.min
 //= require tinymce-jquery
 //= require admin/tablesorter
+//= require activestorage
 //= require admin/custom
