@@ -22,10 +22,10 @@
 <p>
   <strong>Twitter:</strong> @<%= @setting.twitter_handle %><br />
   <strong>Facebook:</strong> <%= @setting.facebook_username %><br />
-  <strong>Google plus:</strong> +<%= @setting.google_plus_username %><br />
-  <strong>Instagram:</strong> <%= @setting.instagram_username %><br />
-  <strong>YouTube:</strong> <%= @setting.youtube_username %><br />
-  <strong>LinkedIn:</strong> <%= @setting.linkedin_username %>
+  <%# <strong>Google plus:</strong> +<%= @setting.google_plus_username %><br />
+  <%# <strong>Instagram:</strong> <%= @setting.instagram_username %><br />
+  <%# <strong>YouTube:</strong> <%= @setting.youtube_username %><br />
+  <%# <strong>LinkedIn:</strong> <%= @setting.linkedin_username %>
 </p>
 
 <%= link_to t('edit'), edit_setting_path(@setting), class: 'btn btn-primary' %>
